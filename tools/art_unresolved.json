@@ -1,0 +1,810 @@
+{
+"unresolved_own": [
+[
+"Levitation",
+"Psychic"
+],
+[
+"Inquisition Captive",
+"Temptress"
+],
+[
+"Blade Maiden",
+"Temptress"
+],
+[
+"Sagitaria",
+"Temptress"
+],
+[
+"War Witch",
+"Temptress"
+],
+[
+"War Witch (A)",
+"Temptress"
+],
+[
+"War Witch (B)",
+"Temptress"
+],
+[
+"Bath House",
+"Temptress"
+],
+[
+"Hide in Shadows (F)",
+"Temptress"
+],
+[
+"Undress",
+"Temptress"
+],
+[
+"Seek Company",
+"Temptress"
+],
+[
+"Seek Solitude",
+"Temptress"
+],
+[
+"Dress for the Job",
+"Temptress"
+],
+[
+"Witch Robes",
+"Temptress Attire"
+],
+[
+"Sheer Garments",
+"Temptress Attire"
+],
+[
+"Temptress Undergarments",
+"Temptress Attire"
+],
+[
+"Temple Attire",
+"Temptress Attire"
+],
+[
+"Red Corset",
+"Temptress Attire"
+],
+[
+"Archer's Gear",
+"Temptress Attire"
+],
+[
+"Satin Dress",
+"Temptress Attire"
+],
+[
+"Cultist Robes",
+"Temptress Attire"
+],
+[
+"Sheer Leathers",
+"Temptress Attire"
+],
+[
+"Blade Dancer's Gear",
+"Temptress Attire"
+],
+[
+"Leather Corset",
+"Temptress Attire"
+],
+[
+"Dancer's Outfit",
+"Temptress Attire"
+],
+[
+"Priestess Himation",
+"Temptress Attire"
+],
+[
+"Priestess Chainlinks",
+"Temptress Attire"
+],
+[
+"Studded Corset",
+"Temptress Attire"
+],
+[
+"Padded Chainshirt",
+"Temptress Attire"
+],
+[
+"Temptress Leathers",
+"Temptress Attire"
+],
+[
+"Family Heirloom",
+"Temptress"
+],
+[
+"Souteneur's Pistol",
+"Temptress"
+],
+[
+"Temptress Dagger",
+"Temptress"
+],
+[
+"Temptress Dagger (O)",
+"Temptress"
+],
+[
+"Temptress Longsword",
+"Temptress"
+],
+[
+"Temptress Staff",
+"Temptress"
+],
+[
+"Temptress Longbow",
+"Temptress"
+],
+[
+"Dominatrix Whip",
+"Temptress"
+],
+[
+"Infernaa",
+"Temptress"
+],
+[
+"A Working Girl",
+"Temptress"
+],
+[
+"A Working Girl (A)",
+"Temptress"
+],
+[
+"A Working Girl (B)",
+"Temptress"
+],
+[
+"A Working Girl (C)",
+"Temptress"
+],
+[
+"Trusted Contact",
+"Temptress"
+],
+[
+"Delilah",
+"Temptress"
+],
+[
+"Myra",
+"Temptress"
+],
+[
+"Vanessa",
+"Temptress"
+],
+[
+"Hecate's Devotee",
+"Temptress"
+],
+[
+"Hired Brute",
+"Temptress"
+],
+[
+"Denise",
+"Temptress"
+],
+[
+"Gloria",
+"Temptress"
+],
+[
+"Temple Guardian",
+"Temptress"
+],
+[
+"Hecate's Retainer",
+"Temptress"
+],
+[
+"Denna",
+"Temptress"
+],
+[
+"Ronya",
+"Temptress"
+],
+[
+"Hecate's Priestess",
+"Temptress"
+],
+[
+"Courtesan (F)",
+"Temptress"
+],
+[
+"Exotic Dancer (F)",
+"Temptress"
+],
+[
+"Blade Dancer (F)",
+"Temptress"
+],
+[
+"Spell Dancer (F)",
+"Temptress"
+],
+[
+"Coven Initiate (F)",
+"Temptress"
+],
+[
+"Coven Acolyte (F)",
+"Temptress"
+],
+[
+"Coven Witch (F)",
+"Temptress"
+],
+[
+"Astral Guardian (F)",
+"Temptress"
+],
+[
+"Fortune Teller (F)",
+"Temptress"
+],
+[
+"Nora",
+"Temptress"
+],
+[
+"Ryanna",
+"Temptress"
+],
+[
+"Brooke",
+"Temptress"
+],
+[
+"Hecate's Acolyte (F)",
+"Temptress"
+],
+[
+"Duelist (F)",
+"Temptress"
+],
+[
+"Lellyn",
+"Temptress"
+],
+[
+"Sharon",
+"Temptress"
+],
+[
+"Cultist (F)",
+"Temptress"
+],
+[
+"Succubus (F)",
+"Temptress"
+],
+[
+"Denise and Gloria",
+"Temptress"
+],
+[
+"Sisters in Arms",
+"Temptress"
+],
+[
+"Coven Fury (F)",
+"Temptress"
+],
+[
+"Moondance (F)",
+"Temptress"
+],
+[
+"Welcome Home",
+"Temptress"
+],
+[
+"Hard-earned Trust",
+"Temptress"
+],
+[
+"Hard-earned Promotion (A)",
+"Temptress"
+],
+[
+"Hard-earned Promotion (B)",
+"Temptress"
+],
+[
+"Hard-earned Promotion (C)",
+"Temptress"
+],
+[
+"A Smile to Die for",
+"Temptress"
+],
+[
+"Erotic Dance",
+"Temptress"
+],
+[
+"Souteneur",
+"Temptress"
+],
+[
+"Friend with Benefits",
+"Temptress"
+],
+[
+"On Top of Things",
+"Temptress"
+],
+[
+"A Day in Work",
+"Temptress"
+],
+[
+"Seduce (F)",
+"Temptress"
+],
+[
+"Enrapture (F)",
+"Temptress"
+],
+[
+"Skyclad (F)",
+"Temptress"
+],
+[
+"Courtesan's Disguise",
+"Temptress"
+],
+[
+"Sandalwood Perfume",
+"Temptress"
+],
+[
+"Blusher",
+"Temptress"
+],
+[
+"Rouge",
+"Temptress"
+],
+[
+"Strike a Pose",
+"Temptress"
+],
+[
+"Lost in Thoughts",
+"Temptress"
+],
+[
+"Discuss the Terms",
+"Temptress"
+],
+[
+"Striptease",
+"Temptress"
+],
+[
+"Gather Intel",
+"Temptress"
+],
+[
+"Choose Attire",
+"Temptress"
+],
+[
+"Poise (F)",
+"Temptress"
+],
+[
+"A Night to Remember (F)",
+"Temptress"
+],
+[
+"Lustful Thoughts (F)",
+"Temptress"
+],
+[
+"Promise Pleasure (F)",
+"Temptress"
+],
+[
+"Contentment",
+"Temptress"
+],
+[
+"Come with me",
+"Temptress"
+],
+[
+"Casual Lover",
+"Temptress"
+],
+[
+"Take the Lead",
+"Temptress"
+],
+[
+"Admirer's Gift",
+"Temptress"
+],
+[
+"Readiness (F)",
+"Temptress"
+],
+[
+"Twin-Blade Stance (F)",
+"Temptress"
+],
+[
+"Disrobe (F)",
+"Temptress"
+],
+[
+"Flirt (F)",
+"Temptress"
+],
+[
+"Hypnotic Dance (F)",
+"Temptress"
+],
+[
+"Sensual Dance (F)",
+"Temptress"
+],
+[
+"Tantalize (F)",
+"Temptress"
+],
+[
+"Spell Dance (F)",
+"Temptress"
+],
+[
+"Spell Dance II (F)",
+"Temptress"
+],
+[
+"Temple Chores",
+"Temptress"
+],
+[
+"Prayer to Hecate",
+"Temptress"
+],
+[
+"Archery Practice",
+"Temptress"
+],
+[
+"Combat Training",
+"Temptress"
+],
+[
+"Seduction Techniques",
+"Temptress"
+],
+[
+"Undercover",
+"Temptress"
+],
+[
+"Potent Poison (F)",
+"Temptress"
+],
+[
+"Backstab (F)",
+"Temptress"
+],
+[
+"Nothing to Worry (F)",
+"Temptress"
+],
+[
+"Temple Duties",
+"Temptress"
+],
+[
+"Hairpin Strike",
+"Temptress"
+],
+[
+"Unclad (F)",
+"Temptress"
+],
+[
+"Ritual (F)",
+"Temptress"
+],
+[
+"Herbal Lore (F)",
+"Temptress"
+],
+[
+"Five Fold Kiss (F)",
+"Temptress"
+],
+[
+"Ceremonial Cloak (F)",
+"Temptress"
+],
+[
+"Let the Leaves Drop (F)",
+"Temptress"
+],
+[
+"Yuletide Dance (F)",
+"Temptress"
+],
+[
+"Close the Deal",
+"Temptress"
+],
+[
+"Regular Client",
+"Temptress"
+],
+[
+"Daydream",
+"Temptress"
+],
+[
+"Weak Poison (F)",
+"Temptress"
+],
+[
+"Just a Flesh Wound (F)",
+"Temptress"
+],
+[
+"Deliver Death (F)",
+"Temptress"
+],
+[
+"Twin-Blade Attack (F)",
+"Temptress"
+],
+[
+"Twin-Blade Defense (F)",
+"Temptress"
+],
+[
+"Scourge (F)",
+"Temptress"
+],
+[
+"Au Naturel (F)",
+"Temptress"
+],
+[
+"Bedazzle (F)",
+"Temptress"
+],
+[
+"Frolic (F)",
+"Temptress"
+],
+[
+"Draw the Moon (F)",
+"Temptress"
+],
+[
+"Timeless Beauty",
+"Temptress"
+],
+[
+"Burning Sensation",
+"Temptress"
+],
+[
+"Timely Escape",
+"Temptress"
+],
+[
+"Sex Appeal",
+"Temptress"
+],
+[
+"Introspection",
+"Temptress"
+],
+[
+"A Relaxing Bath",
+"Temptress"
+],
+[
+"Survive the Streets",
+"Temptress"
+],
+[
+"Allure (F)",
+"Temptress"
+],
+[
+"Reverie (F)",
+"Temptress"
+],
+[
+"One with Goddess",
+"Temptress"
+],
+[
+"Restlessness",
+"Temptress"
+],
+[
+"Self Defense",
+"Temptress"
+],
+[
+"Debt Collector",
+"Temptress"
+],
+[
+"Sex Education",
+"Temptress"
+],
+[
+"Foreplay",
+"Temptress"
+],
+[
+"Lay Back and Enjoy",
+"Temptress"
+],
+[
+"Court",
+"Temptress"
+],
+[
+"Coquet",
+"Temptress"
+],
+[
+"Share Bed",
+"Temptress"
+],
+[
+"Arousal",
+"Temptress"
+],
+[
+"Trance (F)",
+"Temptress"
+],
+[
+"Hey! Watch your Hands!",
+"Temptress"
+],
+[
+"Floral Bath",
+"Temptress"
+],
+[
+"Befriend",
+"Temptress"
+],
+[
+"Burn with Desire",
+"Temptress"
+],
+[
+"Fake Interest",
+"Temptress"
+],
+[
+"Sow Discord",
+"Temptress"
+],
+[
+"Witchcraft Tutor",
+"Temptress"
+],
+[
+"Too much Heat",
+"Temptress"
+],
+[
+"Last Temptation",
+"Temptress"
+],
+[
+"Fake Orgasm",
+"Temptress"
+]
+],
+"ref_unresolved": [
+[
+"Twin-Blade Attack",
+"Spelldancer/Twin-Blade Attack"
+],
+[
+"Rescue",
+"Temptress/Inquisition Captive"
+],
+[
+"Hire Girls",
+"Temptress/Trusted Contact"
+],
+[
+"Kiss of Life",
+"Temptress/Hecate's Devotee"
+],
+[
+"Brutal Punch",
+"Temptress/Hired Brute"
+],
+[
+"A Small Feast",
+"Temptress/Denise and Gloria"
+],
+[
+"Hecate's Spear",
+"Temptress/Temple Guardian"
+],
+[
+"Hecate's Decree",
+"Temptress/Hecate's Retainer"
+],
+[
+"Hecate's Accords",
+"Temptress/Hecate's Priestess"
+],
+[
+"Art of Seduction (F)",
+"Temptress/Courtesan (F)"
+],
+[
+"Dance of Seduction (F)",
+"Temptress/Exotic Dancer (F)"
+],
+[
+"Blade Form (F)",
+"Temptress/Blade Dancer (F)"
+],
+[
+"Spell Trance (F)",
+"Temptress/Spell Dancer (F)"
+],
+[
+"Coven Ritual (F)",
+"Temptress/Coven Acolyte (F)"
+],
+[
+"Futuresight (F)",
+"Temptress/Fortune Teller (F)"
+],
+[
+"Hecate's Boon (F)",
+"Temptress/Hecate's Acolyte (F)"
+],
+[
+"En Garde (F)",
+"Temptress/Duelist (F)"
+],
+[
+"Demon Worship (F)",
+"Temptress/Cultist (F)"
+],
+[
+"Anticipate (T)",
+"Temptress/Anticipate"
+]
+]
+}

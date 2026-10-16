@@ -1,0 +1,4239 @@
+{
+ "<b>Active Filter: </b> {ShowOnlyCardsWith.text}": {
+  "verdict": "safe",
+  "sinks": [
+   1270,
+   1290,
+   1311
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Show Deck": {
+  "verdict": "mixed",
+  "sinks": [
+   1288
+  ],
+  "risky": [
+   60305,
+   60344,
+   60383
+  ],
+  "other": []
+ },
+ "Show Deck{comparer}{copies}": {
+  "verdict": "safe",
+  "sinks": [
+   1309
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Minimum Deck": {
+  "verdict": "safe",
+  "sinks": [
+   2174
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Minimum Deck ({Difficulty})": {
+  "verdict": "safe",
+  "sinks": [
+   2177,
+   2187
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CardName": {
+  "verdict": "path",
+  "sinks": [
+   8014,
+   10285
+  ],
+  "risky": [],
+  "other": []
+ },
+ "ActionsCost": {
+  "verdict": "path",
+  "sinks": [
+   8188,
+   13441,
+   57761
+  ],
+  "risky": [],
+  "other": []
+ },
+ "FullArtworkMask/CardNameFullArt": {
+  "verdict": "path",
+  "sinks": [
+   8301,
+   13583,
+   34398,
+   34414
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Card Creation Result: Error in Definition": {
+  "verdict": "safe",
+  "sinks": [
+   8888,
+   8957
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Card Added Temporarily in Actions Database!": {
+  "verdict": "safe",
+  "sinks": [
+   9117
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CreateCard ": {
+  "verdict": "mixed",
+  "sinks": [
+   9118
+  ],
+  "risky": [
+   48181,
+   48183
+  ],
+  "other": []
+ },
+ "Duplicate Entry Result: a ": {
+  "verdict": "safe",
+  "sinks": [
+   9122
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Card already exists. Use <b>ReDefine</b> to replace.": {
+  "verdict": "safe",
+  "sinks": [
+   9122
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CardsTotal": {
+  "verdict": "path",
+  "sinks": [
+   9799,
+   9819,
+   9850,
+   11833,
+   11920,
+   12553,
+   12563,
+   12771,
+   12874,
+   12952,
+   28625,
+   28708,
+   61303,
+   61446,
+   69545
+  ],
+  "risky": [],
+  "other": []
+ },
+ "DeckRules": {
+  "verdict": "path",
+  "sinks": [
+   9800,
+   9820,
+   9851,
+   11757,
+   11843,
+   28626,
+   28709,
+   61447,
+   69546,
+   69554,
+   69558
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Deck Size: ": {
+  "verdict": "safe",
+  "sinks": [
+   9800
+  ],
+  "risky": [],
+  "other": []
+ },
+ " to ": {
+  "verdict": "safe",
+  "sinks": [
+   9800
+  ],
+  "risky": [],
+  "other": []
+ },
+ " //  Copies: ": {
+  "verdict": "safe",
+  "sinks": [
+   9800
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CDLabelText": {
+  "verdict": "path",
+  "sinks": [
+   9801,
+   9821,
+   9852,
+   11758,
+   11844,
+   28627,
+   28710,
+   61448,
+   61456,
+   69560
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Cards in Deck: ": {
+  "verdict": "safe",
+  "sinks": [
+   9801,
+   61456
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Cards Left: ": {
+  "verdict": "safe",
+  "sinks": [
+   9821
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Starting Cards: ": {
+  "verdict": "safe",
+  "sinks": [
+   9852
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<size=13>x</size><size=18>{num.ToString()}</size>": {
+  "verdict": "fragment",
+  "sinks": [
+   9903
+  ],
+  "risky": [],
+  "other": []
+ },
+ "EndTurn": {
+  "verdict": "path",
+  "sinks": [
+   9953,
+   22816,
+   23810,
+   23921
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Continue": {
+  "verdict": "mixed",
+  "sinks": [
+   9953,
+   23810,
+   38097
+  ],
+  "risky": [],
+  "other": [
+   65630,
+   65647,
+   65664,
+   65681,
+   65698,
+   65715,
+   65732,
+   65749,
+   65766,
+   65783,
+   65800,
+   65817,
+   65834,
+   65851,
+   65868,
+   65885,
+   65902,
+   65919,
+   65936,
+   65949,
+   66069
+  ]
+ },
+ "{ModManager.Current.CharacterDeck} ({GameMaster.instance.Deck.Decklist.Count})": {
+  "verdict": "fragment",
+  "sinks": [
+   10538
+  ],
+  "risky": [],
+  "other": []
+ },
+ "/": {
+  "verdict": "fragment",
+  "sinks": [
+   10539,
+   14466,
+   18800,
+   20970,
+   21851,
+   21858,
+   24574,
+   24588,
+   24642,
+   24656,
+   25406,
+   31208,
+   53478,
+   54472,
+   67391,
+   67392
+  ],
+  "risky": [],
+  "other": []
+ },
+ " : Stage ": {
+  "verdict": "safe",
+  "sinks": [
+   10553
+  ],
+  "risky": [],
+  "other": []
+ },
+ "RaceMastery": {
+  "verdict": "path",
+  "sinks": [
+   10610
+  ],
+  "risky": [],
+  "other": []
+ },
+ "ClassMastery": {
+  "verdict": "path",
+  "sinks": [
+   10611
+  ],
+  "risky": [],
+  "other": []
+ },
+ "OrganizationMastery": {
+  "verdict": "path",
+  "sinks": [
+   10617
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Owned": {
+  "verdict": "path",
+  "sinks": [
+   10977,
+   11529,
+   27938,
+   42676,
+   67531,
+   69579
+  ],
+  "risky": [],
+  "other": []
+ },
+ "x{num}": {
+  "verdict": "fragment",
+  "sinks": [
+   10977,
+   11529,
+   27938,
+   42676,
+   67531
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Add to Inventory": {
+  "verdict": "safe",
+  "sinks": [
+   10991,
+   27860
+  ],
+  "risky": [],
+  "other": []
+ },
+ "(Already in Inventory)": {
+  "verdict": "safe",
+  "sinks": [
+   11010,
+   27871,
+   27906,
+   27966,
+   67663,
+   67701
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Deck": {
+  "verdict": "mixed",
+  "sinks": [
+   11068,
+   28581
+  ],
+  "risky": [
+   4359,
+   4365,
+   9990,
+   10091,
+   27110,
+   47636,
+   47660
+  ],
+  "other": [
+   11027,
+   11031,
+   11104,
+   11108
+  ]
+ },
+ "Stash": {
+  "verdict": "mixed",
+  "sinks": [
+   11072
+  ],
+  "risky": [
+   9995,
+   10096,
+   47605
+  ],
+  "other": [
+   11040,
+   11044,
+   11086,
+   11090,
+   64771
+  ]
+ },
+ "Refill": {
+  "verdict": "safe",
+  "sinks": [
+   11078,
+   11096
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Choose & Draw": {
+  "verdict": "safe",
+  "sinks": [
+   11169
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Choose & Play": {
+  "verdict": "safe",
+  "sinks": [
+   11389
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Buy {ItemValue2}F": {
+  "verdict": "safe",
+  "sinks": [
+   11545,
+   27956
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Sell {ItemValue2 / 4}F": {
+  "verdict": "safe",
+  "sinks": [
+   11559
+  ],
+  "risky": [],
+  "other": []
+ },
+ "(Can't sell Equipped Items)": {
+  "verdict": "safe",
+  "sinks": [
+   11576
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Buy {ItemValue}F": {
+  "verdict": "safe",
+  "sinks": [
+   11590,
+   27980
+  ],
+  "risky": [],
+  "other": []
+ },
+ "(Can't own more Copies)": {
+  "verdict": "safe",
+  "sinks": [
+   11603,
+   27910,
+   27992,
+   67667,
+   67705
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You can pick up to {Loot} Cards.": {
+  "verdict": "safe",
+  "sinks": [
+   11622
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Portraits: ": {
+  "verdict": "safe",
+  "sinks": [
+   11758,
+   11844
+  ],
+  "risky": [],
+  "other": []
+ },
+ "StartingSkill": {
+  "verdict": "path",
+  "sinks": [
+   12071,
+   12134,
+   12305,
+   28964,
+   28990
+  ],
+  "risky": [],
+  "other": []
+ },
+ " <color=#333333>(+": {
+  "verdict": "fragment",
+  "sinks": [
+   12071,
+   12072,
+   28964,
+   28965,
+   28990,
+   28991
+  ],
+  "risky": [],
+  "other": []
+ },
+ ")</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   12071,
+   12072,
+   28964,
+   28965,
+   28990,
+   28991
+  ],
+  "risky": [],
+  "other": []
+ },
+ "StartingRace": {
+  "verdict": "path",
+  "sinks": [
+   12072,
+   12117,
+   12306,
+   28965,
+   28991
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CharacterGender": {
+  "verdict": "path",
+  "sinks": [
+   12073,
+   12156,
+   12167,
+   12175,
+   12307,
+   28966,
+   28992
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CharacterName": {
+  "verdict": "path",
+  "sinks": [
+   12074,
+   12097,
+   12308,
+   28967,
+   28993
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/StrengthVal": {
+  "verdict": "path",
+  "sinks": [
+   12081,
+   28969,
+   28995
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/AgilityVal": {
+  "verdict": "path",
+  "sinks": [
+   12082,
+   28970,
+   28996
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/ResilienceVal": {
+  "verdict": "path",
+  "sinks": [
+   12083,
+   28971,
+   28997
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/IntellectVal": {
+  "verdict": "path",
+  "sinks": [
+   12084,
+   28973,
+   28999
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/WillpowerVal": {
+  "verdict": "path",
+  "sinks": [
+   12085,
+   28972,
+   28998
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/CharismaVal": {
+  "verdict": "path",
+  "sinks": [
+   12086,
+   28974,
+   29000
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/HPVal": {
+  "verdict": "path",
+  "sinks": [
+   12087,
+   27495,
+   28975,
+   29001
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/APVal": {
+  "verdict": "path",
+  "sinks": [
+   12088,
+   27496,
+   28976,
+   29002
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/APRegenVal": {
+  "verdict": "path",
+  "sinks": [
+   12089,
+   27497,
+   28977,
+   29003
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CCharacterOverview/HandSizeVal": {
+  "verdict": "path",
+  "sinks": [
+   12090,
+   27498,
+   28978,
+   29004
+  ],
+  "risky": [],
+  "other": []
+ },
+ "+": {
+  "verdict": "fragment",
+  "sinks": [
+   12167,
+   35090,
+   60110,
+   63132,
+   63141,
+   63142,
+   63166,
+   63167
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>": {
+  "verdict": "fragment",
+  "sinks": [
+   12343,
+   12348,
+   14807,
+   14812,
+   14844,
+   14849,
+   20127,
+   27116,
+   27121,
+   30109,
+   30114
+  ],
+  "risky": [],
+  "other": []
+ },
+ " (Race)</b>\\n": {
+  "verdict": "safe",
+  "sinks": [
+   12343,
+   27116
+  ],
+  "risky": [],
+  "other": []
+ },
+ " (Class)</b>\\n": {
+  "verdict": "safe",
+  "sinks": [
+   12348,
+   27121
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You don't have enough Tokens. Clear a few stages to gather more!": {
+  "verdict": "safe",
+  "sinks": [
+   12438
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Close": {
+  "verdict": "mixed",
+  "sinks": [
+   12438
+  ],
+  "risky": [
+   66716
+  ],
+  "other": []
+ },
+ "Notice": {
+  "verdict": "path",
+  "sinks": [
+   12552,
+   12565,
+   12717,
+   12728,
+   12761,
+   12765,
+   12769,
+   12825,
+   12883,
+   35295
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You searched for: {Filter} // {num} Cards Found.": {
+  "verdict": "safe",
+  "sinks": [
+   12552
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Search for Cards, Effects or Disciplines": {
+  "verdict": "safe",
+  "sinks": [
+   12560
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Click on a Race or Class Icon (or use the Search field) to get started!": {
+  "verdict": "safe",
+  "sinks": [
+   12565
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Hold on! This may take a while...": {
+  "verdict": "safe",
+  "sinks": [
+   12717,
+   35295
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Card Set.": {
+  "verdict": "safe",
+  "sinks": [
+   12728,
+   12765
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{0}/{1} Card Set.<size=16><color=white> New Tiers unlock when <i>{0}</i> Mastery ({2}) reaches: 15,30,60,90 & 120. </color></size>": {
+  "verdict": "safe",
+  "sinks": [
+   12761
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{0} Card Set.<size=16><color=white> New Tiers unlock when <i>{0}</i> Mastery ({1}) reaches: 15,30,60,90 & 120. </color></size>": {
+  "verdict": "safe",
+  "sinks": [
+   12769
+  ],
+  "risky": [],
+  "other": []
+ },
+ "EnemyName": {
+  "verdict": "path",
+  "sinks": [
+   12805,
+   31204
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Search for Enemies or Archetypes": {
+  "verdict": "safe",
+  "sinks": [
+   12823
+  ],
+  "risky": [],
+  "other": []
+ },
+ "SummonAttributes/Power/Text": {
+  "verdict": "path",
+  "sinks": [
+   13272,
+   13280,
+   13371,
+   13379
+  ],
+  "risky": [],
+  "other": []
+ },
+ "SummonAttributes/Health/Text": {
+  "verdict": "path",
+  "sinks": [
+   13273,
+   13281,
+   13372,
+   13380
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b><color={1}>{0}</color></b>": {
+  "verdict": "fragment",
+  "sinks": [
+   13280,
+   13281,
+   13379,
+   13380
+  ],
+  "risky": [],
+  "other": []
+ },
+ "SummonAttributes/Lifespan/Text": {
+  "verdict": "path",
+  "sinks": [
+   13285,
+   13289,
+   13384,
+   13388
+  ],
+  "risky": [],
+  "other": []
+ },
+ "∞": {
+  "verdict": "fragment",
+  "sinks": [
+   13285,
+   13384
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Scroll View/Viewport/CardDescription": {
+  "verdict": "path",
+  "sinks": [
+   13512
+  ],
+  "risky": [],
+  "other": []
+ },
+ "StatusBack/Intensity": {
+  "verdict": "path",
+  "sinks": [
+   13734,
+   13758,
+   13849
+  ],
+  "risky": [],
+  "other": []
+ },
+ "StatusEffects/": {
+  "verdict": "path",
+  "sinks": [
+   13853,
+   13861
+  ],
+  "risky": [],
+  "other": []
+ },
+ "/StatusBack/Intensity": {
+  "verdict": "safe",
+  "sinks": [
+   13853,
+   13861
+  ],
+  "risky": [],
+  "other": []
+ },
+ "AllyHealth": {
+  "verdict": "path",
+  "sinks": [
+   14250,
+   14464,
+   18799,
+   24573,
+   24587,
+   24641,
+   24655
+  ],
+  "risky": [],
+  "other": []
+ },
+ "AllyPower": {
+  "verdict": "path",
+  "sinks": [
+   14462,
+   18797
+  ],
+  "risky": [],
+  "other": []
+ },
+ "AllyPowerRange": {
+  "verdict": "path",
+  "sinks": [
+   14463,
+   18798
+  ],
+  "risky": [],
+  "other": []
+ },
+ "-": {
+  "verdict": "fragment",
+  "sinks": [
+   14463,
+   18798,
+   20956,
+   25660,
+   31206,
+   60033,
+   60042,
+   60051,
+   60060,
+   60069,
+   60078,
+   60087,
+   63174,
+   63175,
+   63176
+  ],
+  "risky": [],
+  "other": []
+ },
+ "AllyHealthRange": {
+  "verdict": "path",
+  "sinks": [
+   14466,
+   18800,
+   24574,
+   24588,
+   24642,
+   24656
+  ],
+  "risky": [],
+  "other": []
+ },
+ "AllyLifespan": {
+  "verdict": "path",
+  "sinks": [
+   14467,
+   14495,
+   18803,
+   18807
+  ],
+  "risky": [],
+  "other": []
+ },
+ "*": {
+  "verdict": "fragment",
+  "sinks": [
+   14495,
+   18807
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>{ModManager.Current.CardRulesSpellComponentCL}</b>: +1,": {
+  "verdict": "fragment",
+  "sinks": [
+   14662
+  ],
+  "risky": [],
+  "other": []
+ },
+ "</b>: ": {
+  "verdict": "fragment",
+  "sinks": [
+   14807,
+   14812,
+   14844,
+   14849,
+   20127
+  ],
+  "risky": [],
+  "other": []
+ },
+ "+#;-#;0": {
+  "verdict": "fragment",
+  "sinks": [
+   14807,
+   14812,
+   14844,
+   14849,
+   20127,
+   53456,
+   53456,
+   64834,
+   64841
+  ],
+  "risky": [],
+  "other": []
+ },
+ ", <b> ": {
+  "verdict": "fragment",
+  "sinks": [
+   14817,
+   14854,
+   20132
+  ],
+  "risky": [],
+  "other": []
+ },
+ " </b>: ": {
+  "verdict": "fragment",
+  "sinks": [
+   14817,
+   14854,
+   20132
+  ],
+  "risky": [],
+  "other": []
+ },
+ " +#;-#;0": {
+  "verdict": "fragment",
+  "sinks": [
+   14817,
+   14854,
+   20132
+  ],
+  "risky": [],
+  "other": []
+ },
+ "ActionArtwork/DurationFrame/Duration": {
+  "verdict": "path",
+  "sinks": [
+   18855
+  ],
+  "risky": [],
+  "other": []
+ },
+ "EnemyPower": {
+  "verdict": "path",
+  "sinks": [
+   20952,
+   25659,
+   31205
+  ],
+  "risky": [],
+  "other": []
+ },
+ "EnemyPowerRange": {
+  "verdict": "path",
+  "sinks": [
+   20956,
+   25660,
+   31206
+  ],
+  "risky": [],
+  "other": []
+ },
+ "EnemyHealth": {
+  "verdict": "path",
+  "sinks": [
+   20966,
+   21850,
+   21857,
+   25405,
+   31207
+  ],
+  "risky": [],
+  "other": []
+ },
+ "EnemyHealthRange": {
+  "verdict": "path",
+  "sinks": [
+   20970,
+   21851,
+   21858,
+   25406,
+   31208
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Start": {
+  "verdict": "safe",
+  "sinks": [
+   22816
+  ],
+  "risky": [],
+  "other": []
+ },
+ "End Turn": {
+  "verdict": "safe",
+  "sinks": [
+   23921
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Enemy Reinforcements!\\nWave {ReinforcementsArrived}/{currentMode.MaxReinforcementWaves}": {
+  "verdict": "safe",
+  "sinks": [
+   24906
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Enemy Reinforcements!": {
+  "verdict": "safe",
+  "sinks": [
+   24910
+  ],
+  "risky": [],
+  "other": []
+ },
+ "[<b>Combat Result:</b> Victory!]\\n": {
+  "verdict": "safe",
+  "sinks": [
+   27019
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Resistances": {
+  "verdict": "mixed",
+  "sinks": [
+   27396,
+   27499,
+   53511
+  ],
+  "risky": [
+   2501,
+   32828,
+   47575,
+   47660
+  ],
+  "other": [
+   2525,
+   32830
+  ]
+ },
+ "Proficiency": {
+  "verdict": "mixed",
+  "sinks": [
+   27397,
+   27500,
+   53512
+  ],
+  "risky": [
+   2502,
+   32823,
+   51870,
+   51872
+  ],
+  "other": [
+   2526,
+   32825
+  ]
+ },
+ "{Example.InitialSummonLimit()}/9": {
+  "verdict": "fragment",
+  "sinks": [
+   27400,
+   27502
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Add to Stash (Owned x{num})": {
+  "verdict": "safe",
+  "sinks": [
+   27883
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Add to Deck (Owned x{num})": {
+  "verdict": "safe",
+  "sinks": [
+   27887
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{ModManager.Current.CharacterCreationAlliance}: {chosenAlliance}": {
+  "verdict": "fragment",
+  "sinks": [
+   28531,
+   28539
+  ],
+  "risky": [],
+  "other": []
+ },
+ "OptimalTarget/Text": {
+  "verdict": "path",
+  "sinks": [
+   28581,
+   28584,
+   28587,
+   28590,
+   30257
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Skill": {
+  "verdict": "mixed",
+  "sinks": [
+   28584
+  ],
+  "risky": [
+   55689,
+   55903
+  ],
+  "other": []
+ },
+ "Locked": {
+  "verdict": "safe",
+  "sinks": [
+   28587
+  ],
+  "risky": [],
+  "other": []
+ },
+ "*Starting Deck Cards are also Skills": {
+  "verdict": "safe",
+  "sinks": [
+   28626
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Cards: ": {
+  "verdict": "safe",
+  "sinks": [
+   28627
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Organization: ": {
+  "verdict": "safe",
+  "sinks": [
+   28709
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Cards: ": {
+  "verdict": "safe",
+  "sinks": [
+   28710
+  ],
+  "risky": [],
+  "other": []
+ },
+ "TemplateSelectButton/TemplateName": {
+  "verdict": "path",
+  "sinks": [
+   28780,
+   28845
+  ],
+  "risky": [],
+  "other": []
+ },
+ "TokensImage/TokensVal": {
+  "verdict": "path",
+  "sinks": [
+   28882,
+   28922
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{difficulty}": {
+  "verdict": "fragment",
+  "sinks": [
+   28953,
+   63100
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CharacterSheet/Nickname": {
+  "verdict": "path",
+  "sinks": [
+   29272,
+   46438,
+   46554
+  ],
+  "risky": [],
+  "other": []
+ },
+ "EndTurnText": {
+  "verdict": "path",
+  "sinks": [
+   29280,
+   29574
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Start!": {
+  "verdict": "safe",
+  "sinks": [
+   29280,
+   29574
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Retire {You.nickname}?": {
+  "verdict": "safe",
+  "sinks": [
+   29999
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=black>Abandon this run & Retire your character to the Book of Heroes?</color>\\n<b>Cost</b>: <i>{SafePassageFarthings}</i> Farthings & <i>{SafePassageRations}</i> Rations.": {
+  "verdict": "safe",
+  "sinks": [
+   30002
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Accept": {
+  "verdict": "mixed",
+  "sinks": [
+   30003
+  ],
+  "risky": [],
+  "other": [
+   12446
+  ]
+ },
+ "Decline": {
+  "verdict": "mixed",
+  "sinks": [
+   30004
+  ],
+  "risky": [],
+  "other": [
+   12447
+  ]
+ },
+ "(Race)</b>\\n": {
+  "verdict": "safe",
+  "sinks": [
+   30109
+  ],
+  "risky": [],
+  "other": []
+ },
+ "(Class)</b>\\n": {
+  "verdict": "safe",
+  "sinks": [
+   30114
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Enemy": {
+  "verdict": "path",
+  "sinks": [
+   30257
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Placeholder": {
+  "verdict": "safe",
+  "sinks": [
+   30435
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot1[0]) ? text : text2)}>{player.EquipmentQSlot1[0]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33526
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot1[1]) ? text : text2)}>{player.EquipmentQSlot1[1]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33527
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot1[2]) ? text : text2)}>{player.EquipmentQSlot1[2]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33528
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot1[3]) ? text : text2)}>{player.EquipmentQSlot1[3]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33529
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot1[4]) ? text : text2)}>{player.EquipmentQSlot1[4]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33530
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot1[5]) ? text : text2)}>{player.EquipmentQSlot1[5]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33531
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot1[6]) ? text : text2)}>{player.EquipmentQSlot1[6]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33532
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Empty": {
+  "verdict": "mixed",
+  "sinks": [
+   33536,
+   33537,
+   33538,
+   33539,
+   33540,
+   33541,
+   33542,
+   33556,
+   33557,
+   33558,
+   33559,
+   33560,
+   33561,
+   33562
+  ],
+  "risky": [
+   18261,
+   18265,
+   18269,
+   18273,
+   18277,
+   18281,
+   18285,
+   23835,
+   23840,
+   25167,
+   25185,
+   25203,
+   25221,
+   25239,
+   37916,
+   37924,
+   37932,
+   37940,
+   53121,
+   53760,
+   59890
+  ],
+  "other": [
+   2895,
+   2903,
+   3036,
+   3044,
+   52943,
+   52944,
+   52945,
+   52946,
+   52947,
+   52948,
+   52949,
+   52950,
+   52951,
+   52952,
+   52953,
+   52954,
+   52955,
+   52956,
+   52957,
+   52958,
+   52959,
+   52960,
+   52961,
+   52962,
+   52963,
+   53765,
+   53770,
+   53856,
+   54991,
+   54999,
+   55007,
+   55015,
+   55023,
+   55031,
+   55039,
+   55049,
+   55057,
+   55065,
+   55073,
+   55081,
+   55089,
+   55097,
+   55231,
+   55239,
+   55563,
+   55564,
+   55565,
+   55566,
+   55567,
+   55568,
+   55569
+  ]
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot2[0]) ? text : text2)}>{player.EquipmentQSlot2[0]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33546
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot2[1]) ? text : text2)}>{player.EquipmentQSlot2[1]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33547
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot2[2]) ? text : text2)}>{player.EquipmentQSlot2[2]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33548
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot2[3]) ? text : text2)}>{player.EquipmentQSlot2[3]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33549
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot2[4]) ? text : text2)}>{player.EquipmentQSlot2[4]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33550
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot2[5]) ? text : text2)}>{player.EquipmentQSlot2[5]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33551
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={(player.Inventory.Contains(player.EquipmentQSlot2[6]) ? text : text2)}>{player.EquipmentQSlot2[6]}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   33552
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<size=24>Action Effect</size>\\n\\n": {
+  "verdict": "safe",
+  "sinks": [
+   37036
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{text}": {
+  "verdict": "fragment",
+  "sinks": [
+   37256
+  ],
+  "risky": [],
+  "other": []
+ },
+ "→ {item.Mode}": {
+  "verdict": "fragment",
+  "sinks": [
+   37265
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{MyCharacter.Race}/{MyCharacter.Class} Lv {MyCharacter.CurrentLevel}": {
+  "verdict": "safe",
+  "sinks": [
+   37337
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{lastWriteTime:dd/MM/yy @H:mm}": {
+  "verdict": "fragment",
+  "sinks": [
+   37340,
+   57576
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Score: <b>{MyCharacter.StagesSurvived * 20 + MyCharacter.EnemiesKilled * 10 + MyCharacter.RoomsExplored * 5}</b>": {
+  "verdict": "safe",
+  "sinks": [
+   37341
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=red>-{RevivalCost} Tokens</color> {AscendTo}": {
+  "verdict": "safe",
+  "sinks": [
+   37390,
+   37445
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=red>-{RevivalCost} Tokens</color> {DefaultAdventure2}": {
+  "verdict": "safe",
+  "sinks": [
+   37522
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{DefaultAdventure}": {
+  "verdict": "fragment",
+  "sinks": [
+   37797
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Modname": {
+  "verdict": "path",
+  "sinks": [
+   47303,
+   47376,
+   47444,
+   47528
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>{text}</b> (Expansion)": {
+  "verdict": "safe",
+  "sinks": [
+   47376
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Expansion Activated:</b> It's recommended to restart the ModManager.": {
+  "verdict": "safe",
+  "sinks": [
+   47389
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Expansion Deactivated:</b> It's recommended to restart the ModManager.": {
+  "verdict": "safe",
+  "sinks": [
+   47394
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Mod Activated:</b> It's recommended to restart the ModManager.": {
+  "verdict": "safe",
+  "sinks": [
+   47463
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Mod Deactivated:</b> It's recommended to restart the ModManager.": {
+  "verdict": "safe",
+  "sinks": [
+   47468
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Mod Uninstalled:</b> It's recommended to restart the ModManager.": {
+  "verdict": "safe",
+  "sinks": [
+   47479
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Mod Installed:</b> It's recommended to restart the ModManager.": {
+  "verdict": "safe",
+  "sinks": [
+   47483
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Uninstalling Mod...": {
+  "verdict": "safe",
+  "sinks": [
+   47492
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Hmm... Something is not right. It would be better to Uninstall this Mod Manually!": {
+  "verdict": "safe",
+  "sinks": [
+   47499
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Creating Mods Directory...": {
+  "verdict": "safe",
+  "sinks": [
+   47515
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Unpacking...": {
+  "verdict": "safe",
+  "sinks": [
+   47517
+  ],
+  "risky": [],
+  "other": []
+ },
+ "This file doesn't seem to exist! Did you pasted the path correctly?": {
+  "verdict": "safe",
+  "sinks": [
+   47540
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Received Card: ": {
+  "verdict": "safe",
+  "sinks": [
+   48187
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Couldn't find a card <b>": {
+  "verdict": "safe",
+  "sinks": [
+   48191,
+   48219,
+   48234,
+   48249,
+   48367,
+   48398,
+   48536
+  ],
+  "risky": [],
+  "other": []
+ },
+ "</b> <i>(Card Names are Case Sensitive.)</i>": {
+  "verdict": "safe",
+  "sinks": [
+   48191,
+   48219,
+   48234,
+   48249,
+   48367,
+   48398,
+   48536
+  ],
+  "risky": [],
+  "other": []
+ },
+ " is already in your Inventory!": {
+  "verdict": "safe",
+  "sinks": [
+   48205
+  ],
+  "risky": [],
+  "other": []
+ },
+ " added to your Inventory!": {
+  "verdict": "safe",
+  "sinks": [
+   48209
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Added Card: ": {
+  "verdict": "safe",
+  "sinks": [
+   48214
+  ],
+  "risky": [],
+  "other": []
+ },
+ " in Deck (Reshuffle when done adding Cards)": {
+  "verdict": "safe",
+  "sinks": [
+   48214
+  ],
+  "risky": [],
+  "other": []
+ },
+ "DefineCard ": {
+  "verdict": "mixed",
+  "sinks": [
+   48229
+  ],
+  "risky": [
+   48345,
+   48347
+  ],
+  "other": []
+ },
+ "Template Retrieved! Edit at least the Cardname!": {
+  "verdict": "safe",
+  "sinks": [
+   48230
+  ],
+  "risky": [],
+  "other": []
+ },
+ "ReDefine ": {
+  "verdict": "mixed",
+  "sinks": [
+   48244
+  ],
+  "risky": [
+   48350,
+   48352
+  ],
+  "other": []
+ },
+ "Template Retrieved! Enter to confirm any changes to Cardname!": {
+  "verdict": "safe",
+  "sinks": [
+   48245
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Fetched ": {
+  "verdict": "safe",
+  "sinks": [
+   48279,
+   48308,
+   48338
+  ],
+  "risky": [],
+  "other": []
+ },
+ " cards after ": {
+  "verdict": "safe",
+  "sinks": [
+   48279,
+   48308,
+   48338
+  ],
+  "risky": [],
+  "other": []
+ },
+ " iterations.": {
+  "verdict": "safe",
+  "sinks": [
+   48279,
+   48308,
+   48338
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Couldn't find an Enemy <b>": {
+  "verdict": "safe",
+  "sinks": [
+   48380
+  ],
+  "risky": [],
+  "other": []
+ },
+ "</b> <i>(Enemy Names are Case Sensitive.)</i>": {
+  "verdict": "safe",
+  "sinks": [
+   48380
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Removed ": {
+  "verdict": "safe",
+  "sinks": [
+   48395
+  ],
+  "risky": [],
+  "other": []
+ },
+ " from the Action Database! Make sure it's not used in your Run!": {
+  "verdict": "safe",
+  "sinks": [
+   48395
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Deck Reshuffled!": {
+  "verdict": "safe",
+  "sinks": [
+   48404,
+   48416
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Ambushed!": {
+  "verdict": "safe",
+  "sinks": [
+   48409
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Killed all Enemies!": {
+  "verdict": "safe",
+  "sinks": [
+   48421
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Next Node set to: ": {
+  "verdict": "safe",
+  "sinks": [
+   48430
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Added a new Node and set it to: ": {
+  "verdict": "safe",
+  "sinks": [
+   48434
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Current Node set to: ": {
+  "verdict": "safe",
+  "sinks": [
+   48447
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Need a number between 1 & ": {
+  "verdict": "safe",
+  "sinks": [
+   48451,
+   48469
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Current Stage set to: ": {
+  "verdict": "safe",
+  "sinks": [
+   48465
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Starting Event with ID: ": {
+  "verdict": "safe",
+  "sinks": [
+   48480
+  ],
+  "risky": [],
+  "other": []
+ },
+ "No Event found with ID: ": {
+  "verdict": "safe",
+  "sinks": [
+   48485
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Enforce Full Artwork Cards is Off": {
+  "verdict": "mixed",
+  "sinks": [
+   48493
+  ],
+  "risky": [],
+  "other": [
+   35060
+  ]
+ },
+ "Enforce Full Artwork Cards is On": {
+  "verdict": "mixed",
+  "sinks": [
+   48498
+  ],
+  "risky": [],
+  "other": [
+   35065
+  ]
+ },
+ "Progress Saved as ": {
+  "verdict": "safe",
+  "sinks": [
+   48512
+  ],
+  "risky": [],
+  "other": []
+ },
+ ".json": {
+  "verdict": "mixed",
+  "sinks": [
+   48512,
+   48658
+  ],
+  "risky": [
+   381,
+   1734,
+   2084,
+   34016,
+   35311,
+   35352,
+   35364,
+   42831,
+   48509,
+   48655,
+   48669,
+   54601,
+   54630,
+   55131,
+   55631,
+   61559,
+   63679
+  ],
+  "other": [
+   37884,
+   50009
+  ]
+ },
+ "You need to specify a filename without the json extension. ": {
+  "verdict": "safe",
+  "sinks": [
+   48517,
+   48663
+  ],
+  "risky": [],
+  "other": []
+ },
+ " gained: ": {
+  "verdict": "safe",
+  "sinks": [
+   48531
+  ],
+  "risky": [],
+  "other": []
+ },
+ " xp.": {
+  "verdict": "safe",
+  "sinks": [
+   48531
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Players ": {
+  "verdict": "safe",
+  "sinks": [
+   48553,
+   48560,
+   48565,
+   48570,
+   48575,
+   48580,
+   48585,
+   48590,
+   48595,
+   48600
+  ],
+  "risky": [],
+  "other": []
+ },
+ " modified by ": {
+  "verdict": "safe",
+  "sinks": [
+   48553,
+   48560,
+   48565,
+   48570,
+   48575,
+   48580,
+   48585,
+   48590,
+   48595,
+   48600
+  ],
+  "risky": [],
+  "other": []
+ },
+ "+#;-#;+0": {
+  "verdict": "fragment",
+  "sinks": [
+   48553,
+   48560,
+   48565,
+   48570,
+   48575,
+   48580,
+   48585,
+   48590,
+   48595,
+   48600,
+   48618
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Mastery modified by ": {
+  "verdict": "safe",
+  "sinks": [
+   48618
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Progress Loaded from ": {
+  "verdict": "safe",
+  "sinks": [
+   48658
+  ],
+  "risky": [],
+  "other": []
+ },
+ "ModifyGM {text25}=>": {
+  "verdict": "safe",
+  "sinks": [
+   48696
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You need to specify the Game Mode Name without the json extension. ": {
+  "verdict": "safe",
+  "sinks": [
+   48700
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Console Commands are available during the Player's Turn only": {
+  "verdict": "safe",
+  "sinks": [
+   48709
+  ],
+  "risky": [],
+  "other": []
+ },
+ "New Value Set: {Setting} => {StringValue}. (Feel free to modify a different value)": {
+  "verdict": "safe",
+  "sinks": [
+   48719,
+   48723,
+   48727,
+   48731,
+   48735,
+   48739,
+   48743,
+   48747,
+   48751,
+   48755
+  ],
+  "risky": [],
+  "other": []
+ },
+ "New Value Set: {Setting} => {BoolValue}. (Feel free to modify a different value)": {
+  "verdict": "safe",
+  "sinks": [
+   48759,
+   48763,
+   48767,
+   48771,
+   48775,
+   48779,
+   48783,
+   48787,
+   48791,
+   48795,
+   48799,
+   48803,
+   48807,
+   48811,
+   48815,
+   48819,
+   48823,
+   48827,
+   48831,
+   48835,
+   48839,
+   48843,
+   48847,
+   48851,
+   48855,
+   48859,
+   48863,
+   48869,
+   48878
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Conquest Mode Requires either the War for Roverford or Canticum Noctem DLCs": {
+  "verdict": "safe",
+  "sinks": [
+   48873
+  ],
+  "risky": [],
+  "other": []
+ },
+ "New Value Set: {Setting} => {IntValue}. (Feel free to modify a different value)": {
+  "verdict": "safe",
+  "sinks": [
+   48882,
+   48886,
+   48890,
+   48894,
+   48898,
+   48902,
+   48906,
+   48910,
+   48914,
+   48918,
+   48922,
+   48926,
+   48930,
+   48934,
+   48938,
+   48942,
+   48946,
+   48950,
+   48954,
+   48958,
+   48962,
+   48966,
+   48970,
+   48974,
+   48978,
+   48982,
+   48986,
+   48990,
+   48994,
+   48998,
+   49002,
+   49006,
+   49010,
+   49014,
+   49018,
+   49022,
+   49026,
+   49030,
+   49034,
+   49038,
+   49042,
+   49046,
+   49050,
+   49054,
+   49058,
+   49062,
+   49066
+  ],
+  "risky": [],
+  "other": []
+ },
+ "New Value Set: {Setting} => {FloatValue}. (Feel free to modify a different value)": {
+  "verdict": "safe",
+  "sinks": [
+   49070,
+   49074,
+   49078,
+   49082,
+   49086,
+   49090,
+   49094
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">": {
+  "verdict": "fragment",
+  "sinks": [
+   49176,
+   64834,
+   64841,
+   64983,
+   64988,
+   64999,
+   65004,
+   65015,
+   65020,
+   65445,
+   68785,
+   68832,
+   68879,
+   68926,
+   68973,
+   69020,
+   69067,
+   69114,
+   69161,
+   69210
+  ],
+  "risky": [],
+  "other": []
+ },
+ "\\n": {
+  "verdict": "fragment",
+  "sinks": [
+   49176
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Steam Workshop Mods are <b>Active</b>": {
+  "verdict": "safe",
+  "sinks": [
+   49459
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Steam Workshop Mods are <b>Inactive</b>": {
+  "verdict": "safe",
+  "sinks": [
+   49473
+  ],
+  "risky": [],
+  "other": []
+ },
+ "GMType": {
+  "verdict": "path",
+  "sinks": [
+   49830
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{arg}": {
+  "verdict": "fragment",
+  "sinks": [
+   49830
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You can spend up to <b>{AvailablePPToSpend.ToString()}</b> PP & give extra Perks to your Character.": {
+  "verdict": "mixed",
+  "sinks": [
+   51597
+  ],
+  "risky": [],
+  "other": [
+   51603
+  ]
+ },
+ "PerkUnlock/PerkCost": {
+  "verdict": "path",
+  "sinks": [
+   52053,
+   52077
+  ],
+  "risky": [],
+  "other": []
+ },
+ "PerkBackground/PerkName": {
+  "verdict": "path",
+  "sinks": [
+   52076
+  ],
+  "risky": [],
+  "other": []
+ },
+ "PerkUnlock/UnlockLvl": {
+  "verdict": "path",
+  "sinks": [
+   52078
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Lv": {
+  "verdict": "fragment",
+  "sinks": [
+   52078,
+   60101
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Search Perks": {
+  "verdict": "safe",
+  "sinks": [
+   52154,
+   52443,
+   52477,
+   52511,
+   52549
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Active Perks ({GameMaster.instance.Player.UnlockedPerks.Count})": {
+  "verdict": "safe",
+  "sinks": [
+   52341
+  ],
+  "risky": [],
+  "other": []
+ },
+ "→ {item}": {
+  "verdict": "fragment",
+  "sinks": [
+   52353
+  ],
+  "risky": [],
+  "other": []
+ },
+ "({1}) → {0}": {
+  "verdict": "fragment",
+  "sinks": [
+   52357
+  ],
+  "risky": [],
+  "other": []
+ },
+ ", Lvl ": {
+  "verdict": "safe",
+  "sinks": [
+   53480,
+   53481
+  ],
+  "risky": [],
+  "other": []
+ },
+ " ({XP}/{XPToLevelUp()})": {
+  "verdict": "fragment",
+  "sinks": [
+   53481
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{Rations}/{MaxRations}": {
+  "verdict": "fragment",
+  "sinks": [
+   53502,
+   54425
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Archetype {text}</b>\\n\\n{EnemyGalleryInfo.instance.GetArchetypeInfo(text, FreePerksShow: false)}": {
+  "verdict": "safe",
+  "sinks": [
+   54293
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>{perk.PerkName}</b>\\n{text4}": {
+  "verdict": "fragment",
+  "sinks": [
+   55779
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>{0}</b>\\n<color=": {
+  "verdict": "safe",
+  "sinks": [
+   55783
+  ],
+  "risky": [],
+  "other": []
+ },
+ "><size=-2>": {
+  "verdict": "fragment",
+  "sinks": [
+   55783,
+   55783
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<size=-2></color>\\n<color=": {
+  "verdict": "safe",
+  "sinks": [
+   55783
+  ],
+  "risky": [],
+  "other": []
+ },
+ "</size></color>{4}\\n{2}": {
+  "verdict": "fragment",
+  "sinks": [
+   55783
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>{text13}</b>\\n{text}\\n{text4}": {
+  "verdict": "fragment",
+  "sinks": [
+   57170
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{text} - {progress.Race}/{progress.Class} - Lv {progress.CurrentLevel} @{text2}": {
+  "verdict": "safe",
+  "sinks": [
+   57570
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Empty Slot": {
+  "verdict": "mixed",
+  "sinks": [
+   57623
+  ],
+  "risky": [
+   67074
+  ],
+  "other": []
+ },
+ "Overlay/Qty": {
+  "verdict": "path",
+  "sinks": [
+   57760,
+   57806
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Actions": {
+  "verdict": "mixed",
+  "sinks": [
+   57761
+  ],
+  "risky": [
+   4582,
+   8717,
+   8719,
+   8721,
+   8742,
+   8752,
+   14692,
+   14758,
+   14791,
+   14827,
+   50544,
+   50588,
+   59192,
+   59193,
+   59229,
+   59234,
+   59400,
+   59405,
+   59448,
+   59463,
+   59505,
+   59506,
+   60289,
+   60328,
+   60367
+  ],
+  "other": [
+   1374,
+   1393,
+   8182,
+   8235,
+   8239,
+   8243,
+   8247,
+   8251,
+   8255,
+   8259,
+   8263,
+   8306,
+   8310,
+   9709,
+   9733,
+   11320,
+   13424,
+   13838,
+   13845,
+   13945,
+   13973,
+   13989,
+   14094,
+   14130,
+   14439,
+   14443,
+   14447,
+   14451,
+   14455,
+   14459,
+   16405,
+   17938,
+   18834,
+   18838,
+   18889,
+   19562,
+   19620,
+   20361,
+   20568,
+   21974,
+   22019,
+   22059,
+   22092,
+   22138,
+   25172,
+   25190,
+   25208,
+   25226,
+   25244,
+   27147,
+   30270,
+   30821,
+   33857,
+   33875,
+   50135,
+   50539,
+   50631,
+   53124,
+   53126,
+   55408,
+   55474,
+   55886,
+   57296,
+   57315,
+   57777,
+   57785,
+   58244,
+   58248,
+   58848,
+   58852,
+   58877,
+   60896,
+   60904,
+   60984,
+   61008,
+   64533,
+   70697
+  ]
+ },
+ "Advanced": {
+  "verdict": "mixed",
+  "sinks": [
+   59349
+  ],
+  "risky": [
+   59355
+  ],
+  "other": [
+   1221,
+   1273,
+   1293,
+   1314
+  ]
+ },
+ "done": {
+  "verdict": "safe",
+  "sinks": [
+   59349
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Active Filter: </b> Only {ApplyFilter}": {
+  "verdict": "safe",
+  "sinks": [
+   59452
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Active Filter: </b> {ApplyFilter}": {
+  "verdict": "safe",
+  "sinks": [
+   59455
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Only ": {
+  "verdict": "safe",
+  "sinks": [
+   59467
+  ],
+  "risky": [],
+  "other": []
+ },
+ "CharacterSheet/SkillTreeLegend": {
+  "verdict": "path",
+  "sinks": [
+   59617,
+   59871,
+   60464,
+   60612,
+   60661
+  ],
+  "risky": [],
+  "other": []
+ },
+ "AddToDeck": {
+  "verdict": "path",
+  "sinks": [
+   59657
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>S</b>": {
+  "verdict": "fragment",
+  "sinks": [
+   59657
+  ],
+  "risky": [],
+  "other": []
+ },
+ "SkillName": {
+  "verdict": "path",
+  "sinks": [
+   59792,
+   61053
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>E</b>": {
+  "verdict": "fragment",
+  "sinks": [
+   60027
+  ],
+  "risky": [],
+  "other": []
+ },
+ "InDeck": {
+  "verdict": "path",
+  "sinks": [
+   60101
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Level ": {
+  "verdict": "safe",
+  "sinks": [
+   60843
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Mastery ": {
+  "verdict": "safe",
+  "sinks": [
+   60857
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Tier": {
+  "verdict": "path",
+  "sinks": [
+   60857
+  ],
+  "risky": [],
+  "other": []
+ },
+ "UnlockReq": {
+  "verdict": "mixed",
+  "sinks": [
+   60857
+  ],
+  "risky": [
+   10782,
+   10800,
+   10875
+  ],
+  "other": [
+   9578,
+   10784,
+   10786,
+   10788,
+   12781,
+   60838
+  ]
+ },
+ "{num2}/{copiesAllowedInStash}": {
+  "verdict": "fragment",
+  "sinks": [
+   60868
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{num2}/{num3}": {
+  "verdict": "fragment",
+  "sinks": [
+   60874
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{num4} → {num2}": {
+  "verdict": "fragment",
+  "sinks": [
+   60880
+  ],
+  "risky": [],
+  "other": []
+ },
+ "SkillReqs": {
+  "verdict": "path",
+  "sinks": [
+   61054
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{num}/{copiesAllowedInStash}": {
+  "verdict": "fragment",
+  "sinks": [
+   61266
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{num}/{num2}": {
+  "verdict": "fragment",
+  "sinks": [
+   61270
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{1}/{1}": {
+  "verdict": "fragment",
+  "sinks": [
+   61290
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color={arg}>{MyDeck.Decklist.Count.ToString()}</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   61303
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Cards in View: ": {
+  "verdict": "safe",
+  "sinks": [
+   61448
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Background": {
+  "verdict": "path",
+  "sinks": [
+   63084,
+   63088
+  ],
+  "risky": [],
+  "other": []
+ },
+ "(-{currentMode.ReincarnationToll * player.StagesSurvived} Tokens)": {
+  "verdict": "safe",
+  "sinks": [
+   63155
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Sandbox": {
+  "verdict": "mixed",
+  "sinks": [
+   63173
+  ],
+  "risky": [
+   48765
+  ],
+  "other": [
+   49803
+  ]
+ },
+ "Detected an older version of <b>": {
+  "verdict": "safe",
+  "sinks": [
+   63444
+  ],
+  "risky": [],
+  "other": []
+ },
+ "</b>: Updating...": {
+  "verdict": "safe",
+  "sinks": [
+   63444
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Step 2/2: Updating Item Details.": {
+  "verdict": "safe",
+  "sinks": [
+   63446
+  ],
+  "risky": [],
+  "other": []
+ },
+ "A mod with this title already exists: <b>": {
+  "verdict": "safe",
+  "sinks": [
+   63452
+  ],
+  "risky": [],
+  "other": []
+ },
+ "</b>.": {
+  "verdict": "fragment",
+  "sinks": [
+   63452
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Something went wrong! Error Code: ": {
+  "verdict": "safe",
+  "sinks": [
+   63460
+  ],
+  "risky": [],
+  "other": []
+ },
+ ".": {
+  "verdict": "fragment",
+  "sinks": [
+   63460,
+   63533
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Step 0/2: Check if Item exists.": {
+  "verdict": "safe",
+  "sinks": [
+   63466
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Step 1/2: Creating Steam Workshop Item.": {
+  "verdict": "safe",
+  "sinks": [
+   63473
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You need to accept the Steam Workshop Agreement before uploading any items there!": {
+  "verdict": "safe",
+  "sinks": [
+   63482
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Step 2/2: Setting Item Details.": {
+  "verdict": "safe",
+  "sinks": [
+   63488
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Your account appears restricted from uploading content due to a hub ban, account lock, or community ban. Please contact Steam Support.": {
+  "verdict": "safe",
+  "sinks": [
+   63493
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You are currently disconnected from Steam. Please login and try again!": {
+  "verdict": "safe",
+  "sinks": [
+   63497
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Steam Workshop appears offline. Try again a bit later!": {
+  "verdict": "safe",
+  "sinks": [
+   63501
+  ],
+  "risky": [],
+  "other": []
+ },
+ "One of the submission fields contains something not being accepted by that field. Check them and try again!": {
+  "verdict": "safe",
+  "sinks": [
+   63505
+  ],
+  "risky": [],
+  "other": []
+ },
+ "There was a problem trying to save the title and description. Access was denied. Check them and try again!": {
+  "verdict": "safe",
+  "sinks": [
+   63509
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You have exceeded your Steam Cloud quota. Remove some items and try again!": {
+  "verdict": "safe",
+  "sinks": [
+   63513
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Duplicate request. File was already successfully uploaded!": {
+  "verdict": "safe",
+  "sinks": [
+   63517
+  ],
+  "risky": [],
+  "other": []
+ },
+ "You already have a Steam Workshop item with that name.": {
+  "verdict": "safe",
+  "sinks": [
+   63521
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Your account appears currently restricted from uploading in the Workshop. Please contact Steam Support.": {
+  "verdict": "safe",
+  "sinks": [
+   63525
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Operation timed out. Check that all fields are set correctly and try again!": {
+  "verdict": "safe",
+  "sinks": [
+   63529
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Couldn't create a new item! Error Code: ": {
+  "verdict": "safe",
+  "sinks": [
+   63533
+  ],
+  "risky": [],
+  "other": []
+ },
+ "The item update handle was invalid, the job might be finished, a SubmitItemUpdateResult_t call result should have been returned for it.": {
+  "verdict": "safe",
+  "sinks": [
+   63544
+  ],
+  "risky": [],
+  "other": []
+ },
+ "The item update is processing configuration data.": {
+  "verdict": "safe",
+  "sinks": [
+   63547
+  ],
+  "risky": [],
+  "other": []
+ },
+ "The item update is reading and processing content files.": {
+  "verdict": "safe",
+  "sinks": [
+   63550
+  ],
+  "risky": [],
+  "other": []
+ },
+ "The item update is uploading content changes to Steam.": {
+  "verdict": "safe",
+  "sinks": [
+   63553
+  ],
+  "risky": [],
+  "other": []
+ },
+ "The item update is uploading new preview file image.": {
+  "verdict": "safe",
+  "sinks": [
+   63556
+  ],
+  "risky": [],
+  "other": []
+ },
+ "The item update is committing all changes.": {
+  "verdict": "safe",
+  "sinks": [
+   63559
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Sucessfully submitted item to Steam": {
+  "verdict": "safe",
+  "sinks": [
+   63581
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Couldn't submit the item to Steam. Error Code: ": {
+  "verdict": "safe",
+  "sinks": [
+   63587
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Steam Uploader wasn't properly initialized. Try restarting your Mod Manager!": {
+  "verdict": "safe",
+  "sinks": [
+   63626
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Connecting to Steam...": {
+  "verdict": "safe",
+  "sinks": [
+   63629
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Miscellaneous,Addons,": {
+  "verdict": "safe",
+  "sinks": [
+   63639
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Processing Request...": {
+  "verdict": "safe",
+  "sinks": [
+   63647
+  ],
+  "risky": [],
+  "other": []
+ },
+ "All the fields are required!": {
+  "verdict": "safe",
+  "sinks": [
+   63652
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Something went wrong! Make sure Steam is Active & that all fields are properly set!": {
+  "verdict": "safe",
+  "sinks": [
+   63657
+  ],
+  "risky": [],
+  "other": []
+ },
+ "\\n<size=17><i><color=": {
+  "verdict": "safe",
+  "sinks": [
+   64639,
+   64666,
+   64678,
+   64690,
+   64693,
+   64697,
+   64727,
+   64738,
+   64834,
+   64841,
+   64898,
+   64903,
+   64914,
+   64919,
+   64930,
+   64935,
+   64946,
+   64951,
+   64967,
+   64972,
+   64983,
+   64988,
+   64999,
+   65004,
+   65015,
+   65020,
+   65031,
+   65036,
+   65047,
+   65052,
+   65063,
+   65068,
+   65079,
+   65084,
+   65095,
+   65100,
+   65109,
+   65114,
+   65120,
+   65128,
+   65139,
+   65149,
+   65154,
+   65164,
+   65169,
+   65177,
+   65187,
+   65192,
+   65203,
+   65215,
+   65246,
+   65258,
+   65271,
+   65445,
+   66466,
+   66474,
+   66476,
+   66486,
+   66505,
+   66512,
+   66519,
+   66582
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Casting: ": {
+  "verdict": "safe",
+  "sinks": [
+   64639
+  ],
+  "risky": [],
+  "other": []
+ },
+ "</color></i></size>": {
+  "verdict": "fragment",
+  "sinks": [
+   64639,
+   64666,
+   64678,
+   64727,
+   64738,
+   64834,
+   64841,
+   64898,
+   64903,
+   64914,
+   64919,
+   64930,
+   64935,
+   64946,
+   64951,
+   64967,
+   64972,
+   64983,
+   64988,
+   64999,
+   65004,
+   65015,
+   65020,
+   65031,
+   65036,
+   65079,
+   65084,
+   65095,
+   65100,
+   65215,
+   65246,
+   65258,
+   65271,
+   65445
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Recipe: ": {
+  "verdict": "safe",
+  "sinks": [
+   64666
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Ingredient: ": {
+  "verdict": "safe",
+  "sinks": [
+   64678
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Insufficient Ingredients. </color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   64690
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Recipe Result: ": {
+  "verdict": "safe",
+  "sinks": [
+   64693
+  ],
+  "risky": [],
+  "other": []
+ },
+ "!</color></i></size>": {
+  "verdict": "fragment",
+  "sinks": [
+   64693
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Ingredients Consumed. </color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   64697
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Received: ": {
+  "verdict": "safe",
+  "sinks": [
+   64727,
+   65215
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Used: ": {
+  "verdict": "safe",
+  "sinks": [
+   64738
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Influence": {
+  "verdict": "mixed",
+  "sinks": [
+   64834
+  ],
+  "risky": [
+   48557,
+   53236,
+   53288,
+   64045,
+   64829
+  ],
+  "other": []
+ },
+ " Influence: ": {
+  "verdict": "safe",
+  "sinks": [
+   64834
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Expertise": {
+  "verdict": "mixed",
+  "sinks": [
+   64841
+  ],
+  "risky": [
+   5245,
+   5247,
+   47590,
+   47660,
+   51696,
+   51698,
+   53262,
+   53303,
+   64102,
+   64836
+  ],
+  "other": []
+ },
+ " Expertise: ": {
+  "verdict": "safe",
+  "sinks": [
+   64841
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Farthings: +": {
+  "verdict": "safe",
+  "sinks": [
+   64898
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Farthings: ": {
+  "verdict": "safe",
+  "sinks": [
+   64903
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Perk Points: +": {
+  "verdict": "safe",
+  "sinks": [
+   64914
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Perk Points: ": {
+  "verdict": "safe",
+  "sinks": [
+   64919
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">LevelUp Points: +": {
+  "verdict": "safe",
+  "sinks": [
+   64930
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">LevelUp Points: ": {
+  "verdict": "safe",
+  "sinks": [
+   64935
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Tokens: +": {
+  "verdict": "safe",
+  "sinks": [
+   64946
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Tokens: ": {
+  "verdict": "safe",
+  "sinks": [
+   64951
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Mastery: +": {
+  "verdict": "safe",
+  "sinks": [
+   64967
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Mastery: ": {
+  "verdict": "safe",
+  "sinks": [
+   64972
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Mastery: +": {
+  "verdict": "safe",
+  "sinks": [
+   64983,
+   64999,
+   65015
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Mastery: ": {
+  "verdict": "safe",
+  "sinks": [
+   64988,
+   65004,
+   65020
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Rations: +": {
+  "verdict": "safe",
+  "sinks": [
+   65031
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Rations: ": {
+  "verdict": "safe",
+  "sinks": [
+   65036
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You can carry +": {
+  "verdict": "safe",
+  "sinks": [
+   65047,
+   65063
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Rations.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65047,
+   65052
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You can carry ": {
+  "verdict": "safe",
+  "sinks": [
+   65052,
+   65068
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Farthings.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65063,
+   65068,
+   66582
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Order: +": {
+  "verdict": "safe",
+  "sinks": [
+   65079
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Order: ": {
+  "verdict": "safe",
+  "sinks": [
+   65084
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Karma: +": {
+  "verdict": "safe",
+  "sinks": [
+   65095
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Karma: ": {
+  "verdict": "safe",
+  "sinks": [
+   65100
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Time Advances: +": {
+  "verdict": "safe",
+  "sinks": [
+   65109,
+   65128
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Days.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65109
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">It's Nightfall.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65114
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">It's Daybreak.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65120
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Hours.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65128
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Health: ": {
+  "verdict": "safe",
+  "sinks": [
+   65139
+  ],
+  "risky": [],
+  "other": []
+ },
+ " HP.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65139,
+   65149,
+   65154
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You gain: +": {
+  "verdict": "safe",
+  "sinks": [
+   65149,
+   65164,
+   65187
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You lose: ": {
+  "verdict": "safe",
+  "sinks": [
+   65154,
+   65169,
+   65192
+  ],
+  "risky": [],
+  "other": []
+ },
+ " XP.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65164,
+   65169
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Actions: ": {
+  "verdict": "safe",
+  "sinks": [
+   65177
+  ],
+  "risky": [],
+  "other": []
+ },
+ " AP.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65177,
+   65187,
+   65192
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Discarded: ": {
+  "verdict": "safe",
+  "sinks": [
+   65203
+  ],
+  "risky": [],
+  "other": []
+ },
+ " Cards.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   65203
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Received Equipment: ": {
+  "verdict": "safe",
+  "sinks": [
+   65246
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Received Action: ": {
+  "verdict": "safe",
+  "sinks": [
+   65258
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Equipped: ": {
+  "verdict": "safe",
+  "sinks": [
+   65271
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b><size=15>Something is different!</size></b>\\n<i>Looks like I can no longer do this!</i>": {
+  "verdict": "safe",
+  "sinks": [
+   65996,
+   66114
+  ],
+  "risky": [],
+  "other": []
+ },
+ "> Rest restores 15 HP & 15 AP. All Ailments and Debuffs are removed. You spend 1 Rations. </color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   66466
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You don't have enough rations to fully benefit from rest!</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   66474
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Rest restores 5 HP & 5 AP.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   66476
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">Feeding restores 15 HP, 15 AP and removes Bleeding. </color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   66486
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You purchase Rations x1. You spend 25 Farthings.</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   66505
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You don't have enough coin!</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   66512
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You can't carry any more rations!</color></i></size>": {
+  "verdict": "safe",
+  "sinks": [
+   66519
+  ],
+  "risky": [],
+  "other": []
+ },
+ ">You receive: ": {
+  "verdict": "safe",
+  "sinks": [
+   66582
+  ],
+  "risky": [],
+  "other": []
+ },
+ "{player.Rations}/{player.MaxRations}": {
+  "verdict": "fragment",
+  "sinks": [
+   67390
+  ],
+  "risky": [],
+  "other": []
+ },
+ "(Can't Sell Equipped Items)": {
+  "verdict": "safe",
+  "sinks": [
+   67587
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=white>": {
+  "verdict": "fragment",
+  "sinks": [
+   68692
+  ],
+  "risky": [],
+  "other": []
+ },
+ " (Settlement)</color>": {
+  "verdict": "safe",
+  "sinks": [
+   68692
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=gray>": {
+  "verdict": "fragment",
+  "sinks": [
+   68702
+  ],
+  "risky": [],
+  "other": []
+ },
+ " (You are denied entry)</color>": {
+  "verdict": "safe",
+  "sinks": [
+   68702
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Enter the Settlement of ": {
+  "verdict": "safe",
+  "sinks": [
+   68708
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Enter": {
+  "verdict": "safe",
+  "sinks": [
+   68715
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=": {
+  "verdict": "mixed",
+  "sinks": [
+   68785,
+   68832,
+   68879,
+   68926,
+   68973,
+   69020,
+   69067,
+   69114,
+   69161,
+   69210
+  ],
+  "risky": [],
+  "other": [
+   23133,
+   23141,
+   23149,
+   23153,
+   23157,
+   23166,
+   23171,
+   23213,
+   23231,
+   23249,
+   23267,
+   23285,
+   23303,
+   23321,
+   23339,
+   23357,
+   23375,
+   23393,
+   23411,
+   27662,
+   27782,
+   53947,
+   53957,
+   53969,
+   53975,
+   53992,
+   54000,
+   54024,
+   54058,
+   68770,
+   68774,
+   68778,
+   68782,
+   68817,
+   68821,
+   68825,
+   68829,
+   68864,
+   68868,
+   68872,
+   68876,
+   68911,
+   68915,
+   68919,
+   68923,
+   68958,
+   68962,
+   68966,
+   68970,
+   69005,
+   69009,
+   69013,
+   69017,
+   69052,
+   69056,
+   69060,
+   69064,
+   69099,
+   69103,
+   69107,
+   69111,
+   69146,
+   69150,
+   69154,
+   69158,
+   69195,
+   69199,
+   69203,
+   69207
+  ]
+ },
+ "</color>": {
+  "verdict": "fragment",
+  "sinks": [
+   68785,
+   68832,
+   68879,
+   68926,
+   68973,
+   69020,
+   69067,
+   69114,
+   69161,
+   69210
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Travel to ": {
+  "verdict": "safe",
+  "sinks": [
+   69234
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Travel": {
+  "verdict": "safe",
+  "sinks": [
+   69237
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Reward:</b> Pick 2 Card(s) out of {num} random choices.": {
+  "verdict": "safe",
+  "sinks": [
+   69554
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<b>Reward:</b> Pick {Picks} Card(s) out of {num} random choices.": {
+  "verdict": "safe",
+  "sinks": [
+   69558
+  ],
+  "risky": [],
+  "other": []
+ },
+ "x{num2}": {
+  "verdict": "fragment",
+  "sinks": [
+   69579
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Explore": {
+  "verdict": "mixed",
+  "sinks": [
+   69647
+  ],
+  "risky": [],
+  "other": [
+   36334,
+   53443
+  ]
+ },
+ " is locked!": {
+  "verdict": "safe",
+  "sinks": [
+   70484
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Requires <b>{text2}</b> DLC.\\nOr a mod implementing {location}.json.": {
+  "verdict": "safe",
+  "sinks": [
+   70484
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Got it!": {
+  "verdict": "safe",
+  "sinks": [
+   70484
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=white><b>Rations: </b></color>": {
+  "verdict": "safe",
+  "sinks": [
+   70673
+  ],
+  "risky": [],
+  "other": []
+ },
+ "<color=white><b>Farthings: </b></color>": {
+  "verdict": "safe",
+  "sinks": [
+   70677
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Explore - ": {
+  "verdict": "safe",
+  "sinks": [
+   70704
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Beautify": {
+  "verdict": "path",
+  "sinks": [
+   72030,
+   72034,
+   72163,
+   72173
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Beautify ON": {
+  "verdict": "safe",
+  "sinks": [
+   72030
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Beautify OFF": {
+  "verdict": "safe",
+  "sinks": [
+   72034
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Beautify (DoF transparency support is ON)": {
+  "verdict": "safe",
+  "sinks": [
+   72173
+  ],
+  "risky": [],
+  "other": []
+ },
+ "Beautify (Dof transparency support is OFF)": {
+  "verdict": "safe",
+  "sinks": [
+   72173
+  ],
+  "risky": [],
+  "other": []
+ }
+}

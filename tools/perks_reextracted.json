@@ -1,0 +1,2738 @@
+{
+"Morrigan's Curse": {
+"cost": "20",
+"req": "",
+"desc": "<b>Background</b><br>→ You can pick a Morrigan Ancestry.<br>→ You gain 2x 'Unfettered' cards.<br>→ You gain 1x 'Raven's Form' cards.<br>→ You gain 1x 'Mutual Slaughter' cards.<br>→ You gain 1x 'Rundown Shack' cards.<br>→ Min Deck requirement increases by +10.<br>→ Light Affinity decreases by 4.<br>→ Light Resistance decreases by 4.<br>→ <i>You can pick one Background.</i>",
+"file": "PerkDB.Hag.tdb"
+},
+"Badb's Daughter": {
+"cost": "0",
+"req": "Morrigan's Curse",
+"desc": "<b>Morrigan Ancestry</b><br>→ Subterfuge Expertise increases by +1.<br>→ Witchcraft Expertise increases by +1.<br>→ 'Dark' Ally cards gain +8 Health.<br>→ Pride effect increases by +3.<br>→ Control Enemy effect increases by +3.<br>→ Strain effect decreases by 2.<br>→ You gain 2x 'Raven's Form' cards.<br>→ You gain 'Night Hag' as Skill.<br>→ <i>You can pick only one Ancestry.</i>",
+"file": "PerkDB.Hag.tdb"
+},
+"Macha's Daughter": {
+"cost": "0",
+"req": "Morrigan's Curse",
+"desc": "<b>Morrigan Ancestry</b><br>→ Herbalism Expertise increases by +1.<br>→ Survival Expertise increases by +1.<br>→ 'Astral' Ally cards gain +3 Lifespan.<br>→ Heal Allies effect increases by +4.<br>→ Loyalty effect increases by +2.<br>→ You start each turn with +1 Loyalty.<br>→ You gain 2x 'Rundown Shack' cards.<br>→ You gain 'Forest Hag' as Skill.<br>→ <i>You can pick only one Ancestry.</i>",
+"file": "PerkDB.Hag.tdb"
+},
+"Neamhain's Daughter": {
+"cost": "0",
+"req": "Morrigan's Curse",
+"desc": "<b>Morrigan Ancestry</b><br>→ Occult Expertise increases by +1.<br>→ Rituals Expertise increases by +1.<br>→ 'Poison' Ally cards gain +6 Power.<br>→ Chaos effect increases by +1.<br>→ Chaotic effect increases by +3.<br>→ Damage effect increases by +1.<br>→ You gain 2x 'Mutual Slaughter' cards.<br>→ You gain 'Beldame' as Skill.<br>→ <i>You can pick only one Ancestry.</i>",
+"file": "PerkDB.Hag.tdb"
+},
+"Morrigan's Heir": {
+"cost": "480",
+"req": "Morrigan's Curse",
+"desc": "<b>Morrigan Ancestry (Upgrade)</b><br>→ 'Coven' rule changes as follow: your Defend value becomes 0 and you get -1 Fatigue (down to -1), then for each Witch you exhaust you gain +1 Defend (instead of +2) and +2 Empower (instead of +1). Each Witch you 'Exhausted' has a 50% chance to remain 'Active'. You get Fatigue normally for each Witch you didn't exhaust.<br>→ Min Deck requirement increases by +10.<br>→ You Draw +1 cards (Focus +1).<br>→ Dark, Poison and Astral Affinities increase by +3.<br>→ Light Resistance decreases by 4.",
+"file": "PerkDB.Hag.tdb"
+},
+"Morrigan": {
+"cost": "960",
+"req": "Morrigan's Heir",
+"desc": "<b>Morrigan Ancestry (Upgrade)</b><br>→ Min Deck requirement increases by +15.<br>→ You Draw +1 cards (Focus +1).<br>→ Slashing, Piercing and Bludgeoning Resistances increase by +2.<br>→ Dark, Poison and Astral Resistances increase by +5.<br>→ Destroy Enemy effect increases by +3.<br>→ Control Enemy effect increases by +3.<br>→ Actions cost 2 AP less (down to 0).",
+"file": "PerkDB.Hag.tdb"
+},
+"Night Hag": {
+"cost": "20",
+"req": "",
+"desc": "<b>Background / Hag Only</b><br>→ You gain 'Night Hag' as Skill.<br>→ Subterfuge expertise increases by +1.<br>→ Witchcraft expertise increases by +1.<br>→ You gain +2 Charisma.<br>→ <i>You can pick one Background.</i><br>→ Morrigan Ancestries become unavailable.",
+"file": "PerkDB.Hag.tdb"
+},
+"Forest Hag": {
+"cost": "20",
+"req": "",
+"desc": "<b>Background / Hag Only</b><br>→ You gain 'Forest Hag' as Skill.<br>→ Herbalism expertise increases by +1.<br>→ Survival expertise increases by +1.<br>→ Healing effect increases by +2.<br>→ <i>You can pick one Background.</i><br>→ Morrigan Ancestries become unavailable.",
+"file": "PerkDB.Hag.tdb"
+},
+"Beldame": {
+"cost": "20",
+"req": "",
+"desc": "<b>Background / Hag Only</b><br>→ You gain 'Beldame' as Skill.<br>→ Occult expertise increases by +1.<br>→ Rituals expertise increases by +1.<br>→ Greed effect increases by +2.<br>→ <i>You can pick one Background.</i><br>→ Morrigan Ancestries become unavailable.",
+"file": "PerkDB.Hag.tdb"
+},
+"Alter Appearance": {
+"cost": "20",
+"req": "",
+"desc": "→ Subterfuge expertise increases by +1.<br>→ Concealment effect increases by +5.",
+"file": "PerkDB.Hag.tdb"
+},
+"Appearance of Beauty": {
+"cost": "60",
+"req": "Alter Appearance",
+"desc": "→ Illusions expertise increases by +1.<br>→ You gain +2 Charisma.<br>→ Bewitch effect increases by +1.<br>→ 'Ragged Appearance', 'Hideous Deformation' and 'Horrid Appearance' perks become unavailable.",
+"file": "PerkDB.Hag.tdb"
+},
+"Ageless Beauty": {
+"cost": "120",
+"req": "Appearance of Beauty",
+"desc": "→ Illusions expertise increases by +1.<br>→ You gain +3 Charisma.<br>→ Control Enemy effect increases by +3.<br>→ Lust effect increases by +3.",
+"file": "PerkDB.Hag.tdb"
+},
+"Lethal Attraction": {
+"cost": "240",
+"req": "Ageless Beauty",
+"desc": "→ Illusions expertise increases by +1.<br>→ 'Bewitched' Enemies lose 5 HP after they act.<br>→ Enemies are not immune to Bewitch as long as you are in 'Raven's Form'.",
+"file": "PerkDB.Hag.tdb"
+},
+"Ragged Appearance": {
+"cost": "60",
+"req": "Alter Appearance",
+"desc": "→ You lose 1 Charisma.<br>→ Dark Affinity increases by +1.<br>→ Inevitable Vulnerable effect increases by +1.<br>→ 'Appearance of Beauty', 'Ageless Beauty' and 'Lethal Attraction' perks become unavailable.",
+"file": "PerkDB.Hag.tdb"
+},
+"Hideous Deformation": {
+"cost": "120",
+"req": "Ragged Appearance",
+"desc": "→ Intimidate expertise increases by +1.<br>→ You lose 2 Charisma.<br>→ You gain +2 Willpower.<br>→ Destroy Enemy effect increases by +3.<br>→ Venom effect increases by +3.<br>→ Pride effect increases by +3.",
+"file": "PerkDB.Hag.tdb"
+},
+"Horrid Appearance": {
+"cost": "240",
+"req": "Hideous Deformation",
+"desc": "→ You lose 2 Charisma.<br>→ Delayed Vulnerable effect increases by +2.<br>→ 'Vulnerable' Enemies lose 5 HP after they act.<br>→ Enemies are not immune to Vulnerable as long as you are in your 'Hag Form'.",
+"file": "PerkDB.Hag.tdb"
+},
+"Secrets of Blood I": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +1 Blood Surge.<br>→ You gain 3x copies of 'Secrets of Blood I'.",
+"file": "PerkDB.Hag.tdb"
+},
+"Secrets of Blood II": {
+"cost": "160",
+"req": "Secrets of Blood I",
+"desc": "→ You Expend 1 less Blood Surge.<br>→ You gain 2x copies of 'Secrets of Blood II'.",
+"file": "PerkDB.Hag.tdb"
+},
+"Induce Fear": {
+"cost": "120",
+"req": "",
+"desc": "→ You lose 1 Charisma.<br>→ Synergy Damage effect increases by +1.<br>→ Vulnerable effect increases by +1.<br>→ Weaken effect increases by +1.",
+"file": "PerkDB.Hag.tdb"
+},
+"Physical Resistance": {
+"cost": "120",
+"req": "Supernatural Resilience",
+"desc": "→ You gain +1 Resilience.<br>→ Defend effect increases by +1.<br>→ Slashing Resistance increases by +1.<br>→ Piercing Resistance increases by +1.<br>→ Bludgeoning Resistance increases by +1.",
+"file": "PerkDB.Hag.tdb"
+},
+"Magic Resistance": {
+"cost": "240",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ Hex Ward effect increases by +4.<br>→ Fire Resistance increases by +2.<br>→ Water Resistance increases by +2.<br>→ Air Resistance increases by +2.<br>→ Earth Resistance increases by +2.",
+"file": "PerkDB.Hag.tdb"
+},
+"The Torn Veil": {
+"cost": "100",
+"req": "The Hidden Veil",
+"desc": "→ Bewitch effect increases by +2.<br>→ Control Enemy effect increases by +3.<br>→ You gain 'The Torn Veil' as Skill.",
+"file": "PerkDB.Hag.tdb"
+},
+"Sisters Bond (Astarte)": {
+"cost": "120",
+"req": "The Torn Veil",
+"desc": "→ Astarte of the Torn Veil considers you a close friend and a confidant.<br>→ You gain a copy of 'Astarte of the Torn Veil' card.<br>→ <i>You can pick only one 'Sisters Bond' Perk.</i>",
+"file": "PerkDB.Hag.tdb"
+},
+"Sisters Bond (Semiramis)": {
+"cost": "120",
+"req": "The Torn Veil",
+"desc": "→ Semiramis of the Torn Veil considers you a close friend and a confidant.<br>→ You gain a copy of 'Semiramis of the Torn Veil' card.<br>→ <i>You can pick only one 'Sisters Bond' Perk.</i>",
+"file": "PerkDB.Hag.tdb"
+},
+"Sisters Bond (Vanity)": {
+"cost": "120",
+"req": "The Torn Veil",
+"desc": "→ Vanity of the Torn Veil considers you a close friend and a confidant.<br>→ You gain a copy of 'Vanity of the Torn Veil' card.<br>→ <i>You can pick only one 'Sisters Bond' Perk.</i>",
+"file": "PerkDB.Hag.tdb"
+},
+"Summoning Focus (Dark)": {
+"cost": "320",
+"req": "Master Summoner",
+"desc": "→ 'Dark' Ally cards gain 10 Power.<br>→'Dark' Ally cards gain 5 Health.<br>→non-'Dark' Ally cards lose 5 Power.<br>→You can pick only one 'Summoning Focus' perk.",
+"file": "PerkDB.Hag.tdb"
+},
+"Summoning Focus (Astral)": {
+"cost": "320",
+"req": "Master Summoner",
+"desc": "→ 'Astral' Ally cards gain 10 Power.<br>→'Astral' Ally cards gain 5 Health.<br>→non-'Astral' Ally cards lose 5 Power.<br>→You can pick only one 'Summoning Focus' perk.",
+"file": "PerkDB.Hag.tdb"
+},
+"Summoning Focus (Poison)": {
+"cost": "320",
+"req": "Master Summoner",
+"desc": "→ 'Poison' Ally cards gain 10 Power.<br>→'Poison' Ally cards gain 5 Health.<br>→non-'Poison' Ally cards lose 5 Power.<br>→You can pick only one 'Summoning Focus' perk.",
+"file": "PerkDB.Hag.tdb"
+},
+"*Psychic": {
+"cost": "0",
+"req": "",
+"desc": "As a Psychic you start with the following Expertises:<br>→ Psychokinesis +1.<br>→ Esotericism +1<br>→ Telepathy +1",
+"file": "PerkDB.Psychic.tdb"
+},
+"Spiritualist": {
+"cost": "20",
+"req": "",
+"desc": "<b>Background</b><br>→ You gain +1 Willpower.<br>→ Esotericism Expertise increases by +1.<br>→ Empathy Expertise increases by +1.<br>→ <i>You can have only one 'Background' Perk.</i>",
+"file": "PerkDB.Psychic.tdb"
+},
+"Telepath": {
+"cost": "20",
+"req": "",
+"desc": "<b>Background</b><br>→ You gain +1 Charisma.<br>→ Telepathy Expertise increases by +1.<br>→ Intuition Expertise increases by +1.<br>→ <i>You can have only one 'Background' Perk.</i>",
+"file": "PerkDB.Psychic.tdb"
+},
+"Street Magician": {
+"cost": "20",
+"req": "",
+"desc": "<b>Background</b><br>→ You gain +1 Intellect.<br>→ Psychokinesis Expertise increases by +1.<br>→ Subterfuge Expertise increases by +1.<br>→ <i>You can have only one 'Background' Perk.</i>",
+"file": "PerkDB.Psychic.tdb"
+},
+"Dormant Gifts": {
+"cost": "90",
+"req": "",
+"desc": "→ Willpower +2.<br>→ Psychokinesis +1.<br>→ [Psychokinesis] Intense +1 every 3 Ranks.<br>→ Telepathy +1.<br>→ [Telepathy] Vulnerable +1 every 3 Ranks.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Astral Attunement": {
+"cost": "180",
+"req": "Dormant Gifts",
+"desc": "→ Psychokinesis +1.<br>→ [Psychokinesis] AP Cost -1 every 5 Ranks.<br>→ Telepathy +1.<br>→ [Telepathy] AP Cost -1 every 5 Ranks.<br>→ Esotericism +1.<br>→ [Esotericism] AP Cost -1 every 5 Ranks.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Psionic Might": {
+"cost": "360",
+"req": "Astral Attunement",
+"desc": "→ Psychokinesis +2.<br>→ Telepathy +2.<br>→ [Psychokinesis] Penetrate +2.<br>→ [Telepathy] Draw +1 cards.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Telekinetic Training": {
+"cost": "80",
+"req": "Dormant Gifts",
+"desc": "→ Psychokinesis +1.<br>→ [Psychokinesis] Chaotic +2<br>→ 'Immobilized' Enemies lose 3 HP before they act.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Telekinetic Expertise": {
+"cost": "160",
+"req": "Telekinetic Training",
+"desc": "→ Psychokinesis +1.<br>→ [Psychokinesis] Actions craft an additional Force Missile every 3 Ranks.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Telekinetic Mastery": {
+"cost": "240",
+"req": "Telekinetic Expertise",
+"desc": "→ Psychokinesis +2.<br>→ [Psychokinesis] Damage +1 for every Psychokinesis rank after the 5th.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Specialization (Psychokinesis)": {
+"cost": "360",
+"req": "Telekinetic Mastery",
+"desc": "<b>Psychic Specialization</b><br>→ Psychokinesis +2.<br>→ You pick only one 'Psychic Specialization' perk.<br>→ Enemies are no longer immune to 'Vulnerable'.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Channeling": {
+"cost": "60",
+"req": "Dormant Gifts",
+"desc": "→ Esotericism +1.<br>→ Astral Affinity +1. <br>→ [Esotericism] Ally card Power +1 per Esotericism rank.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Seance": {
+"cost": "120",
+"req": "Channeling",
+"desc": "→ Esotericism +1.<br>→ [Esotericism] Ally card Health +10.<br>→ Summon Limit +1 (Max 9).",
+"file": "PerkDB.Psychic.tdb"
+},
+"Tutelary": {
+"cost": "180",
+"req": "Seance",
+"desc": "→ Esotericism +2.<br>→ [Esotericism] Actions Restore +2 AP.<br>→ [Esotericism] Healing +6.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Specialization (Esotericism)": {
+"cost": "360",
+"req": "Tutelary",
+"desc": "<b>Psychic Specialization</b><br>→ Esotericism +2.<br>→ You pick only one 'Psychic Specialization' perk.<br>→ Summon Limit +1 (Max 9).",
+"file": "PerkDB.Psychic.tdb"
+},
+"Telepathic Training": {
+"cost": "120",
+"req": "Dormant Gifts",
+"desc": "→ Telepathy +1.<br>→ [Telepathy] Delayed Vulnerable +2.<br>→ 'Vulnerable' Enemies lose 3 HP before they act.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Telepathic Expertise": {
+"cost": "240",
+"req": "Telepathic Training",
+"desc": "→ Telepathy +1.<br>→ [Telepathy] Control Enemy +1 every 2 Ranks.<br>→ 'Bewitched' Enemies lose 4 HP before they act.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Telepathic Mastery": {
+"cost": "320",
+"req": "Telepathic Expertise",
+"desc": "→ Telepathy +2.<br>→ [Telepathy] Defend +2.<br>→ Enemies with 'Flank' lose 4 HP before they act.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Specialization (Telepathy)": {
+"cost": "360",
+"req": "Telepathic Mastery",
+"desc": "<b>Psychic Specialization</b><br>→ Telepathy +2.<br>→ You pick only one 'Psychic Specialization' perk.<br>→ Enemies are no longer immune to 'Bleed'.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Spiritual Awakening I": {
+"cost": "60",
+"req": "",
+"desc": "→ Astral Affinity +1.<br>→ Strain effect -1.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Spiritual Awakening II": {
+"cost": "120",
+"req": "Spiritual Awakening I",
+"desc": "→ Astral Affinity +2.<br>→ Strain effect -1.<br>→ Amplify Astral effect +1.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Mental Defenses I": {
+"cost": "60",
+"req": "",
+"desc": "→ Discard effect -1.<br>→ Astral Resistance +1.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Mental Defenses II": {
+"cost": "120",
+"req": "Mental Defenses I",
+"desc": "→ Cursed effect -2.<br>→ Astral Resistance +2.<br>→ Hex Ward effect +6.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Psychic Reserves I": {
+"cost": "40",
+"req": "",
+"desc": "→ Willpower +1.<br>→ You gain +2 AP.<br>→ You gain +2 HP.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Psychic Reserves II": {
+"cost": "60",
+"req": "Psychic Reserves I",
+"desc": "→ You gain +4 AP.<br>→ You gain +4 HP.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Psychic Reserves III": {
+"cost": "120",
+"req": "Psychic Reserves II",
+"desc": "→ Willpower +2.<br>→ You gain +6 AP.<br>→ You gain +6 HP.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Psychic's Gear I": {
+"cost": "20",
+"req": "",
+"desc": "<b>Starting Gear</b><br>→ You gain 1x 'Apprentice Staff (M)' cards.<br>→ You gain 1x 'Exorcist Robes' cards.<br>→ You gain 2x 'Ritual Candles' cards.<br>→ You gain 2x 'Vial of Holy Water' cards.<br>→ You can pick only one 'Starting Gear' Perk.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Psychic's Gear II": {
+"cost": "20",
+"req": "",
+"desc": "<b>Starting Gear</b><br>→ You gain 1x 'Dreamcatcher' cards.<br>→ You gain 1x 'Ring of Warding' cards.<br>→ You gain 2x 'Meditation Candle' cards.<br>→ You gain 2x 'Deja Reve' cards.<br>→ You can pick only one 'Starting Gear' Perk.",
+"file": "PerkDB.Psychic.tdb"
+},
+"Witchcraft Traditions": {
+"cost": "20",
+"req": "",
+"desc": "→ Actions restore +2 AP.<br>→ You gain 'Unclad' Skill",
+"file": "PerksDB.Core.tdb"
+},
+"Rite of Passage": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +2 Resilience.<br>→ You lose 2 Fire Resistance.",
+"file": "PerksDB.Core.tdb"
+},
+"Small Frame": {
+"cost": "20",
+"req": "",
+"desc": "→ You lose 4 HP.<br>→ You gain +2 AP.<br>→ You gain +1 Agility.<br>→ Piercing Affinity increases by +1.<br>→ 'Chubby' Perk becomes Unavailable.",
+"file": "PerksDB.Core.tdb"
+},
+"Chubby": {
+"cost": "20",
+"req": "",
+"desc": "→ Agility decreases by 2.<br>→ Bludgeoning Affinity increases by +1.<br>→ You gain +6 HP.<br>→ 'Small Frame' Perk becomes Unavailable.",
+"file": "PerksDB.Core.tdb"
+},
+"Tough": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +5 HP.<br>→ You gain +1 Resilience.",
+"file": "PerksDB.Core.tdb"
+},
+"Dainty": {
+"cost": "20",
+"req": "",
+"desc": "→ You lose 4 HP.<br>→ You gain +1 AP.<br>→ You gain +2 Agility.",
+"file": "PerksDB.Core.tdb"
+},
+"Voluptuous": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ Synergy Vulnerable effects increase by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Sultry": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ Synergy Lust effects increase by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Intellectual": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +2 Intellect.<br>→ You lose 1 Resilience.",
+"file": "PerksDB.Core.tdb"
+},
+"Attunement": {
+"cost": "20",
+"req": "",
+"desc": "→ Actions restore +1 AP.<br>→ Ally cards gain +2 Health.",
+"file": "PerksDB.Core.tdb"
+},
+"Zestful": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +3 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Righteous": {
+"cost": "20",
+"req": "",
+"desc": "→ Light Affinity increases by +1.<br>→ Dark Affinity decreases by 2.<br>→ Whenever you gain Judgement you gain +1 more.",
+"file": "PerksDB.Core.tdb"
+},
+"Angelic Blood": {
+"cost": "20",
+"req": "",
+"desc": "→ Light Affinity increases by +1.<br>→ Light Resistance increases by +2.<br>→ Dark Affinity decreases by +1. <br>→ Dark Resistance decreases by 2. ",
+"file": "PerksDB.Core.tdb"
+},
+"Corrupt": {
+"cost": "20",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Light Affinity decreases by 2. ",
+"file": "PerksDB.Core.tdb"
+},
+"Unholy Strength": {
+"cost": "20",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Slashing Affinity increases by +1.<br>→ Light Resistance decreases by 1. ",
+"file": "PerksDB.Core.tdb"
+},
+"Stiffness": {
+"cost": "20",
+"req": "",
+"desc": "→ Slashing Resistance increases by +1.<br>→ Bludgeoning Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Frightful Presence": {
+"cost": "20",
+"req": "",
+"desc": "→ Vulnerable effect increases by +1.<br>→ Synergy Vulnerable effect increases by +1.<br>→ You lose 1 Charisma.",
+"file": "PerksDB.Core.tdb"
+},
+"Chanting": {
+"cost": "40",
+"req": "Witchcraft Traditions",
+"desc": "→ You gain +1 Willpower.<br>→ Astral Affinity increases by +1.<br>→ You gain 'Ritual' Skill.",
+"file": "PerksDB.Core.tdb"
+},
+"Runic Tattoos": {
+"cost": "40",
+"req": "Rite of Passage",
+"desc": "→ You gain +5 HP.<br>→ Piercing Resistance increases by +1.<br>→ You lose 1 Charisma.",
+"file": "PerksDB.Core.tdb"
+},
+"Stalwart": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +5 HP.<br>→ You gain +2 AP.<br>→ Ally cards gain +1 Lifespan.",
+"file": "PerksDB.Core.tdb"
+},
+"Curious": {
+"cost": "40",
+"req": "",
+"desc": "→ Actions that grant XP give +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Psionic Potential": {
+"cost": "40",
+"req": "",
+"desc": "→ Astral Affinity increases by +1<br>→ Intense Damage increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Sensual": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ You gain +1 Agility.",
+"file": "PerksDB.Core.tdb"
+},
+"Luscious": {
+"cost": "40",
+"req": "",
+"desc": "→ Astral Affinity increases by +1.<br>→ Synergy Bewitch effect increase by +1.<br>→ You gain +2 Charisma.",
+"file": "PerksDB.Core.tdb"
+},
+"Strong": {
+"cost": "40",
+"req": "",
+"desc": "→ Bludgeoning Affinity increases by +1.<br>→ You gain +1 Strength.",
+"file": "PerksDB.Core.tdb"
+},
+"Captivating": {
+"cost": "40",
+"req": "",
+"desc": "→ Astral Affinity increases by +1.<br>→ You gain +1 Charisma.",
+"file": "PerksDB.Core.tdb"
+},
+"Tenacious": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +7 HP.<br>→ You gain +2 Resilience.",
+"file": "PerksDB.Core.tdb"
+},
+"Athletic": {
+"cost": "40",
+"req": "Fit",
+"desc": "→ You gain +1 Strength.<br>→ You gain +1 Agility.<br>→ You gain +1 Resilience.",
+"file": "PerksDB.Core.tdb"
+},
+"Benevolent": {
+"cost": "40",
+"req": "",
+"desc": "→ Light Affinity increases by +1.<br>→ Light Resistance increases by +1.<br>→ Dark Affinity decreases by +2.<br>→ Dark Resistance decreases by 2.<br>→ Healing effect increases by +2.<br>→ 'Malevolent' Perk becomes Unavailable.",
+"file": "PerksDB.Core.tdb"
+},
+"Malevolent": {
+"cost": "40",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Dark Resistance increases by +1.<br>→ Light Affinity decreases by 2.<br>→ Light Resistance decreases by 2.<br>→ Sacrifice effect increases by +2.<br>→ 'Benevolent' Perk becomes Unavailable.",
+"file": "PerksDB.Core.tdb"
+},
+"Fire Affinity": {
+"cost": "40",
+"req": "",
+"desc": "→ Fire Affinity increases by +1.<br>→ Fire Resistance increases by +2.<br>→ Water Resistance decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Light Affinity": {
+"cost": "40",
+"req": "",
+"desc": "→ Light Affinity increases by +1.<br>→ Light Resistance increases by +2.<br>→ Dark Resistance decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Water Affinity": {
+"cost": "40",
+"req": "",
+"desc": "→ Water Affinity increases by +1.<br>→ Water Resistance increases by +2.<br>→ Fire Resistance decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Earth Affinity": {
+"cost": "40",
+"req": "",
+"desc": "→ Earth Affinity increases by +1.<br>→ Earth Resistance increases by +2.<br>→ Air Resistance decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Air Affinity": {
+"cost": "40",
+"req": "",
+"desc": "→ Air Affinity increases by +1.<br>→ Air Resistance increases by +2.<br>→ Earth Resistance decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Nature Affinity": {
+"cost": "40",
+"req": "",
+"desc": "→ Water Affinity increases by +1.<br>→ Water Resistance increases by +1.<br>→ Earth Affinity increases by +1.<br>→ Earth Resistance increases by +1.<br>→ Poison Affinity decreases by 2.<br>→ Poison Resistance decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Astral Affinity": {
+"cost": "40",
+"req": "",
+"desc": "→ Astral Affinity increases by +1.<br>→ Astral Resistance increases by +2.<br>→ Light Resistance decreases by 1.<br>→ Dark Resistance decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Bladed-Weapons Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Slashing Affinity increases by +1.<br>→ Piercing Affinity increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Ranged-Weapons Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Piercing Affinity increases by +1.<br>→ Double effect increases by +5%.<br>→ You gain +1 Agility.",
+"file": "PerksDB.Core.tdb"
+},
+"Blunt-Weapons Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Bludgeoning Affinity increases by +1.<br>→ You gain +1 Strength.",
+"file": "PerksDB.Core.tdb"
+},
+"Fire Magic Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Fire Affinity increases by +1.<br>→ Water Affinity decreases by 1.<br>→ You gain +1 Willpower.",
+"file": "PerksDB.Core.tdb"
+},
+"Water Magic Training": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +2 AP.<br>→ Water Affinity increase by +1.<br>→ Fire Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Air Magic Training": {
+"cost": "40",
+"req": "",
+"desc": "→ You lose 3 HP.<br>→ Air Affinity increases by +1.<br>→ You gain +1 Intellect.",
+"file": "PerksDB.Core.tdb"
+},
+"Earth Magic Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Earth Affinity increases by +1.<br>→ You gain +1 Resilience.<br>→ You lose 1 Agility.",
+"file": "PerksDB.Core.tdb"
+},
+"Light Magic Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Light Affinity increases by +1.<br>→ Dark Resistance decreases by 1.<br>→ You gain +1 Willpower.",
+"file": "PerksDB.Core.tdb"
+},
+"Dark Magic Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Light Resistance decreases by 1.<br>→ You gain +1 Intellect.",
+"file": "PerksDB.Core.tdb"
+},
+"Astral Magic Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Astral Affinity increases by +1.<br>→ You gain +1 Charisma.<br>→ You lose 1 Strength.",
+"file": "PerksDB.Core.tdb"
+},
+"Alchemy Training": {
+"cost": "40",
+"req": "",
+"desc": "→ Poison Affinity increases by +1.<br>→ Poison Resistance increases by 1.<br>→ You gain +1 Intellect.",
+"file": "PerksDB.Core.tdb"
+},
+"Inhuman Strength": {
+"cost": "40",
+"req": "",
+"desc": "→ Slashing Affinity increases by +1.<br>→ You gain +2 Strength.",
+"file": "PerksDB.Core.tdb"
+},
+"Supernatural Resilience": {
+"cost": "40",
+"req": "",
+"desc": "→ Bludgeoning Resistance increases by +1.<br>→ Piercing Resistance increases by +1.<br>→ You gain +4 HP.",
+"file": "PerksDB.Core.tdb"
+},
+"Heightened Reflexes": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +2 Agility.<br>→ You gain +5 AP.<br>→ Bludgeoning Affinity decreases by 1. ",
+"file": "PerksDB.Core.tdb"
+},
+"Heightened Intellect": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +2 Intellect.<br>→ Fire Affinity increases by +1.<br>→ Water Affinity increases by +1.<br>→ Air Affinity increases by +1.<br>→ You lose 4 HP.<br>→ You lose 2 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Otherworldly Beauty": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +2 Charisma.<br>→ Astral Affinity increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Scent of Death": {
+"cost": "40",
+"req": "",
+"desc": "→ You lose 2 Charisma.<br>→ Poison Affinity increases by +1.<br>→ Desecrate effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Mobility": {
+"cost": "40",
+"req": "",
+"desc": "→ Defend effect increases by +1.<br>→ Retribution effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Bellicose": {
+"cost": "40",
+"req": "",
+"desc": "→ Damage effect increases by +1.<br>→ Chaotic effect increases by +2.<br>→ Defend effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Vigilant": {
+"cost": "40",
+"req": "",
+"desc": "→ Defend effect increases by +1.<br>→ You gain +2 AP.<br>→ Synergy Damage effect decreases by 1.<br>→ Chaotic effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Apprentice Summoner": {
+"cost": "40",
+"req": "",
+"desc": "→ Ally cards gain +2 Power.<br>→ Ally cards gain +4 Health.<br>→ Summon Limit increases by +1 (Max 9).",
+"file": "PerksDB.Core.tdb"
+},
+"Conviction": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +1 Willpower.<br>→ Resist Dark effect increases by +2.<br>→ Synergy Wrath effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Entertainer": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ Each time you craft a 'Dancing Lights' Card, craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Impulsive": {
+"cost": "60",
+"req": "",
+"desc": "→ Damage effect increases by +1.<br>→ Chaotic effect increases by +2.<br>→ Defend effect decreases by -2.<br>→ 'Cautious' Perk becomes Unavailable.",
+"file": "PerksDB.Core.tdb"
+},
+"Clever": {
+"cost": "60",
+"req": "",
+"desc": "→ You gain +2 Intellect.<br>→ Actions that grant XP give +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Sturdy": {
+"cost": "60",
+"req": "",
+"desc": "→ Bludgeoning Affinity increases by +1.<br>→ You gain +1 Strength.<br>→ You gain +1 Resilience.<br>→ You lose 1 Agility.",
+"file": "PerksDB.Core.tdb"
+},
+"Cautious": {
+"cost": "60",
+"req": "",
+"desc": "→ Defend effect increases by +2.<br>→ Damage effect decreases by 1.<br>→ Chaotic effect decreases by 2.<br>→ 'Impulsive' Perk becomes Unavailable.",
+"file": "PerksDB.Core.tdb"
+},
+"Reckless": {
+"cost": "60",
+"req": "",
+"desc": "→ Chaotic effect increases by +3.<br>→ Defend effect decreases by +1.<br>→ Synergy Damage effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Beguiling": {
+"cost": "80",
+"req": "",
+"desc": "→ Piercing Affinity increases by 1.<br>→ Poison Affinity increases by +1.<br>→ You gain +2 Charisma.",
+"file": "PerksDB.Core.tdb"
+},
+"Energetic": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +1 Resilience.<br>→ You gain +7 AP.<br>→ Your Discard effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Disciplined": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ Bludgeoning Resistance increases by +1.<br>→ Actions that grant XP give +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Family Secret": {
+"cost": "80",
+"req": "",
+"desc": "→ Cursed effect decreases by 1.<br>→ Greed effect increases by +2.<br>→ Synergy Pride effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Bladed-Weapons Expertise": {
+"cost": "80",
+"req": "Bladed-Weapons Training",
+"desc": "→ Piercing Affinity increases by +1.<br>→ Slashing Affinity increases by +1.<br>→ Bludgeoning Affinity decreases by 1.<br>→ You gain +1 Strength.<br>→ You gain +1 Agility.",
+"file": "PerksDB.Core.tdb"
+},
+"Ranged-Weapons Expertise": {
+"cost": "80",
+"req": "Ranged-Weapons Training",
+"desc": "→ Piercing Affinity increases by +1.<br>→ You gain +2 Agility.<br>→ Slashing Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Blunt-Weapons Expertise": {
+"cost": "80",
+"req": "Blunt-Weapons Training",
+"desc": "→ Bludgeoning Affinity increases by +1.<br>→ Piercing Affinity decreases by 1.<br>→ You gain +2 Resilience.",
+"file": "PerksDB.Core.tdb"
+},
+"Fire Magic Expertise": {
+"cost": "80",
+"req": "Fire Magic Training",
+"desc": "→ Fire Affinity increases by +1.<br>→ You gain +2 Willpower.<br>→ Freeze effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Water Magic Expertise": {
+"cost": "80",
+"req": "Water Magic Training",
+"desc": "→ Water Affinity increases by +1.<br>→ You gain +4 HP.<br>→ Burn effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Air Magic Expertise": {
+"cost": "80",
+"req": "Air Magic Training",
+"desc": "→ Air Affinity increases by +1.<br>→ You gain +2 Intellect.<br>→ You gain +2 AP.<br>→ Fire Resistance decreases by 1.<br>→ Water Resistance decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Earth Magic Expertise": {
+"cost": "80",
+"req": "Earth Magic Training",
+"desc": "→ Earth Affinity increases by +1.<br>→ Bludgeoning Affinity increases by +1.<br>→ You gain +2 Resilience.<br>→ Piercing Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Light Magic Expertise": {
+"cost": "80",
+"req": "Light Magic Training",
+"desc": "→ Light Affinity increases by +1.<br>→ You gain +2 Willpower.<br>→ Dark Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Dark Magic Expertise": {
+"cost": "80",
+"req": "Dark Magic Training",
+"desc": "→ Dark Affinity increases by +1.<br>→ You gain +2 Charisma.<br>→ Light Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Astral Magic Expertise": {
+"cost": "80",
+"req": "Astral Magic Training",
+"desc": "→ Astral Affinity increases by +1.<br>→ You gain +2 Intellect.<br>→ Dark Resistance decreases by 1.<br>→ Light Resistance decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Alchemy Expertise": {
+"cost": "80",
+"req": "Alchemy Training",
+"desc": "→ Poison Affinity increases by +1.<br>→ You gain +1 Intellect.<br>→ You gain +1 Agility.",
+"file": "PerksDB.Core.tdb"
+},
+"Supernatural Strength": {
+"cost": "80",
+"req": "Inhuman Strength",
+"desc": "→ Slashing Affinity increases by +1.<br>→ You gain +2 Strength.",
+"file": "PerksDB.Core.tdb"
+},
+"Unholy Might": {
+"cost": "80",
+"req": "Unholy Strength",
+"desc": "→ Slashing Affinity increases by +1.<br>→ Bludgeoning Affinity increases by +1.<br>→ Dark Affinity increases by +1.<br>→ You lose 2 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Tenacity)": {
+"cost": "80",
+"req": "Runic Tattoos",
+"desc": "→ You gain +1 Resilience.<br>→ Bludgeoning Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Might)": {
+"cost": "80",
+"req": "Runic Tattoos",
+"desc": "→ You gain +1 Strength.<br>→ Bludgeoning Affinity increases by +1.<br>→ Synergy Damage effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Supernatural Durability": {
+"cost": "80",
+"req": "Supernatural Resilience",
+"desc": "→ You gain 10 HP.<br>→ Slashing Resistance increases by +1.<br>→ Astral Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Necrotic Skin": {
+"cost": "80",
+"req": "Stiffness",
+"desc": "→ Resist Slashing effect increases by +1.<br>→ Resist Piercing effect increases by +1.<br>→ Defend effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Lightning Reflexes": {
+"cost": "80",
+"req": "Heightened Reflexes",
+"desc": "→ Piercing Affinity increases by +1.<br>→ You gain +4 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Superior Intellect": {
+"cost": "80",
+"req": "Heightened Intellect",
+"desc": "→ You gain +2 Intellect.<br>→ Handsize increase by +1. ",
+"file": "PerksDB.Core.tdb"
+},
+"Supernatural Beauty": {
+"cost": "80",
+"req": "Otherworldly Beauty",
+"desc": "→ You gain +2 Charisma.<br>→ Astral Affinity increases by +1.<br>→ Bewitch effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Smell of Death": {
+"cost": "80",
+"req": "",
+"desc": "→ You lose 2 Charisma.<br>→ Dark Affinity increases by +1.<br>→ Poison Affinity increases by +1.<br>→ Bewitch effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Plumeria Scent": {
+"cost": "80",
+"req": "",
+"desc": "→ Astral Affinity increases by +1<br>→ You gain +2 Charisma.<br>→ Astral Resistance decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Walk Unseen": {
+"cost": "80",
+"req": "",
+"desc": "→ Piercing Affinity increases by 1.<br>→ You gain +2 Agility.<br>→ Concealment effect increase by +5%.",
+"file": "PerksDB.Core.tdb"
+},
+"Hellspawn": {
+"cost": "80",
+"req": "",
+"desc": "→ Fire Resistance increases by +2.<br>→ Dark Resistance increases by +2.<br>→ Light Resistance decreases by 4.",
+"file": "PerksDB.Core.tdb"
+},
+"Unclad": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +2 Charisma.<br>→ You gain +5 AP.<br>→ Astral Affinity increases by +2.<br>→ Piercing Affinity increases by +1.<br>→ Slashing, Piercing and Bludgeoning Resistances decrease by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Coven Traditions": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ You gain +1 Intellect.<br>→ You gain access to Skills 'Coven Initiate' and 'Moondance'",
+"file": "PerksDB.Core.tdb"
+},
+"Claw Retraction": {
+"cost": "80",
+"req": "",
+"desc": "→ Primal Damage increases by +2.<br>→ Bleed effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Serenity": {
+"cost": "80",
+"req": "",
+"desc": "→ Actions Restore +2 AP (Meditate +2).<br>→ Synergy Meditate effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Gaea's Blessing": {
+"cost": "80",
+"req": "",
+"desc": "→ Healing effect increases by +2.<br>→ Synergy Healing effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Hecate's Blessing": {
+"cost": "80",
+"req": "",
+"desc": "→ Amplify Astral effect increases by +1.<br>→ Synergy Damage effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Acrobatics": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +1 Agility.<br>→ Synergy Defend effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Sense Weaknesses": {
+"cost": "80",
+"req": "",
+"desc": "→ Weaken effect increases by +1.<br>→ Weaken Conditions need 1 less Weaken counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Precision": {
+"cost": "80",
+"req": "",
+"desc": "→ Bleed effect increases by +2.<br>→ Double effect increases by +5%.",
+"file": "PerksDB.Core.tdb"
+},
+"Electric Touch": {
+"cost": "80",
+"req": "",
+"desc": "→ Chain effect increases by +10%.<br>→ Synergy Chain effect increases by +10%.",
+"file": "PerksDB.Core.tdb"
+},
+"One with Nature": {
+"cost": "80",
+"req": "",
+"desc": "→ Resist Earth effect increases by +3.<br>→ Earth Resistance increases by +3.<br>→ Earth Affinity increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Well-maintained Weapons": {
+"cost": "80",
+"req": "",
+"desc": "→ Amplify Piercing effect increases by +1.<br>→ Amplify Slashing effect increases by +1.<br>→ Double effect increases by +5%.",
+"file": "PerksDB.Core.tdb"
+},
+"Well-maintained Armor": {
+"cost": "80",
+"req": "",
+"desc": "→ Resist Piercing effect increases by +1.<br>→ Resist Slashing effect increases by +1.<br>→ Resist Bludgeoning effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Focus (Animals)": {
+"cost": "80",
+"req": "",
+"desc": "→ 'Animal' Bane effect increases by +5.<br>→ Teamwork Damage increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Angelic Heritage": {
+"cost": "80",
+"req": "",
+"desc": "→ Light Affinity increases by +1.<br>→ Dark Resistance increases by +2.<br>→ Retribution increases by +3.<br>→ Wrath effects increase by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Spirit Animal (Bull)": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +1 Strength.<br>→ Bludgeoning Affinity increases by +1.<br>→ Bludgeoning Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Spirit Animal (Owl)": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +1 Willpower.<br>→ Air Affinity increases by +1.<br>→ Actions restore +2 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Spirit Animal (Rabbit)": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +1 Agility.<br>→ Piercing Affinity increases by +1.<br>→ Retribution effect increase by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Aquatic": {
+"cost": "80",
+"req": "",
+"desc": "→ Water Resistance increases by +2.<br>→ Resist Water effect increases by +2.<br>→ Synergy Healing effect increases by +2.<br>→ Fire Resistance decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Carefree": {
+"cost": "80",
+"req": "",
+"desc": "→ Actions restore +2 AP.<br>→ Whenever an Action requires you to Exhaust an Ally and you don't, you get 1 less Fatigue.<br>→ Defend effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Realistic Illusions": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ Vulnerable effect increases by +2.<br>→ Synergy Damage effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Bloodletting": {
+"cost": "80",
+"req": "",
+"desc": "→ HP increase by +7.<br>→ Blood Offering effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Devileye Sculptor": {
+"cost": "80",
+"req": "",
+"desc": "→ Synergy Envy effect increases by +2.<br>→ You gain 'Devileye Husk' as a Skill.<br>→ Each time you craft a 'Devileye' Card, craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Eldritch Arcana I": {
+"cost": "80",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Fire Affinity increases by +1.<br>→ Amplify Dark effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Novice Bladedancer": {
+"cost": "80",
+"req": "",
+"desc": "→ Astral Affinity increases by +1.<br>→ Slashing Affinity increases by +1.<br>→ Synergy Damage effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Earth Conduit": {
+"cost": "100",
+"req": "",
+"desc": "→ Entangled Enemies have +10% chance to lose their turn.<br>→ Earth Affinity increases by +2.<br>→ Earth Resistance increases by +2.<br>→ Air Affinity decreases by 3.<br>→ Air Resistance decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Fire Conduit": {
+"cost": "100",
+"req": "",
+"desc": "→ Burn effect increases by +1.<br>→ Fire Affinity increases by +2.<br>→ Fire Resistance increases by +2.<br>→ Water Affinity decreases by 3.<br>→ Water Resistance decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Water Conduit": {
+"cost": "100",
+"req": "",
+"desc": "→ Freeze effect increases by +1.<br>→ Water Affinity increases by +2.<br>→ Water Resistance increases by +2.<br>→ Fire Affinity decreases by 3.<br>→ Fire Resistance decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Light Conduit": {
+"cost": "100",
+"req": "",
+"desc": "→ Healing effect increases by +2.<br>→ Heal Allies effect increases by +2.<br>→ Light Affinity increases by +2.<br>→ Light Resistance increases by +2.<br>→ Dark Affinity decreases by 3.<br>→ Dark Resistance decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Air Conduit": {
+"cost": "100",
+"req": "",
+"desc": "→ Chain effect increases by 10%.<br>→ Air Affinity increases by +2.<br>→ Air Resistance increases by +2.<br>→ Earth Affinity decreases by 3.<br>→ Earth Resistance decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Vine Garments": {
+"cost": "100",
+"req": "",
+"desc": "→ You gain +2 Charisma.<br>→ You gain +1 Agility.<br>→ Bewitch effect increases by +1.<br>→ Amplify Astral effect increases by +1.<br>→ Slashing, Piercing and Bludgeoning Resistances decrease by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Expert Hypnotist": {
+"cost": "100",
+"req": "",
+"desc": "→ Vulnerable effect increases by +1.<br>→ Each time you craft a 'Look into my Eyes' or 'And Now Sleep' cards, craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Natural Armor": {
+"cost": "100",
+"req": "",
+"desc": "→ Defend effect increases by +1.<br>→ You gain +2 Slashing Resistance.",
+"file": "PerksDB.Core.tdb"
+},
+"Witch Hunter": {
+"cost": "100",
+"req": "",
+"desc": "→ Fire Affinity increases by +1.<br>→ You gain +2 Astral Resistance.<br>→ Enemies with 'Hex' counters lose 4 HP before they act.",
+"file": "PerksDB.Core.tdb"
+},
+"Adept Summoner": {
+"cost": "100",
+"req": "Apprentice Summoner",
+"desc": "→ Ally cards gain +4 Power.<br>→ Ally cards gain +1 Lifespan.",
+"file": "PerksDB.Core.tdb"
+},
+"Unrelenting": {
+"cost": "100",
+"req": "",
+"desc": "→ Retribution effect increases by +3.<br>→ Synergy Retribution effect increase by +3.<br>→ Synergy Defend effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Gambling Addiction": {
+"cost": "100",
+"req": "",
+"desc": "→ You lose 1 Willpower.<br>→ Double effect increases by +8%.<br>→ Triple effect increases by +4%.<br>→ Quad effect increases +2%.",
+"file": "PerksDB.Core.tdb"
+},
+"Novice Assassin": {
+"cost": "100",
+"req": "",
+"desc": "→ Vulnerable effect increases by +1.<br>→ Kill effect increases by +1.<br>→ Vulnerable Conditions need 1 less Vulnerable counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Omega": {
+"cost": "100",
+"req": "",
+"desc": "→ You gain +2 Agility.<br>→ Synergy Primal effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Survivor": {
+"cost": "100",
+"req": "",
+"desc": "→ Healing effect increases by +2.<br>→ Hex Ward effect increases by +2.<br>→ Concealment effect increases by +5%.",
+"file": "PerksDB.Core.tdb"
+},
+"Prophetic Dreams": {
+"cost": "100",
+"req": "",
+"desc": "→ You gain +2 Intellect.<br>→ Actions restore +1 AP.<br>→ Healing effect increases by +2.<br>→ Heal Allies effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Resentment": {
+"cost": "100",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Dark Resistance increases by +1.<br>→ Light Affinity decreases by 2.<br>→ Light Resistance decrease by 2.<br>→ Envy effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Perspicuity": {
+"cost": "100",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ Dark Resistance increases by +1.<br>→ Resist Dark effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Shepherd of the Damned": {
+"cost": "100",
+"req": "",
+"desc": "→ Each time you craft a 'Reanimate' Card, craft one more.<br>→ Dark Ally cards gain +4 Power.",
+"file": "PerksDB.Core.tdb"
+},
+"Extraplanar": {
+"cost": "100",
+"req": "",
+"desc": "→ Astral Affinity increases by +2.<br>→ Astral Resistance increases by +2.<br>→ Chaotic effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Intense Flames": {
+"cost": "100",
+"req": "",
+"desc": "→ Amplify Fire increases by +1.<br>→ Intense effect increases by +1.<br>→ Burning Conditions need 1 less Burning counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Effigies & Hexes": {
+"cost": "100",
+"req": "Chanting",
+"desc": "→ Piercing Affinity increases by +1.<br>→ Intense Damage increases by +2.<br>→ Vulnerable effect increase by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Animal Instincts": {
+"cost": "100",
+"req": "",
+"desc": "→ Primal Effect increases by +2.<br>→ Retribution effect increases by +6.<br>→ Rage Conditions need 1 less Rage counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Spiteful": {
+"cost": "100",
+"req": "",
+"desc": "→ Wrath effect increases by +2.<br>→ Envy effect increases by +2.<br>→ Vulnerable Conditions need 1 less Vulnerable counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Inquisition Tenets": {
+"cost": "100",
+"req": "Conviction",
+"desc": "→ You gain +2 Willpower.<br>→ Synergy Retribution effect increases by +4.<br>→ Wrath effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Mark of Cain": {
+"cost": "100",
+"req": "",
+"desc": "→ Envy effect increases by +3.<br>→ Pride effect increases by +3.<br>→ Greed effect increase by +3.<br>→ You start each turn with +1 Blood Surge.",
+"file": "PerksDB.Core.tdb"
+},
+"Exotic Dancer": {
+"cost": "100",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ You gain +1 Agility.<br>→ Bewitch effect increase by +1.<br>→ Synergy Lust effect increases by +5.",
+"file": "PerksDB.Core.tdb"
+},
+"Psionic Expertise": {
+"cost": "120",
+"req": "Psionic Potential",
+"desc": "→ Intense effect increases by +2.<br>→ Synergy Intense effect increases by +2.<br>→ Vulnerable Conditions need 1 less Vulnerable counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Spirited": {
+"cost": "120",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ You gain +2 Charisma.<br>→ You gain +1 Resilience.",
+"file": "PerksDB.Core.tdb"
+},
+"Better Now than Never": {
+"cost": "120",
+"req": "",
+"desc": "→ Chaotic effect increases by +3.<br>→ Damage effect increase by +1.<br>→ Synergy Retribution effect decreases by 3.<br>→ Retribution effect decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Unwavering": {
+"cost": "120",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ Light Resistance increases by +1.<br>→ Dark Resistance increases by +1.<br>→ Astral Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Mind over Matter": {
+"cost": "120",
+"req": "",
+"desc": "→ Healing effect is reduced by 2.<br>→ Actions restore +4 AP.<br>→ Stun effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Bladed-Weapons Mastery": {
+"cost": "160",
+"req": "Bladed-Weapons Expertise",
+"desc": "→ Slashing Affinity increases by +2.<br>→ Bleed effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Ranged-Weapons Mastery": {
+"cost": "160",
+"req": "Ranged-Weapons Expertise",
+"desc": "→ Piercing Affinity increases by +2.<br>→ Double effect increases by +8%.<br>→ Triple effect increases by +4%.<br>→ Quad effect increases +2%.",
+"file": "PerksDB.Core.tdb"
+},
+"Blunt-Weapons Mastery": {
+"cost": "160",
+"req": "Blunt-Weapons Expertise",
+"desc": "→ Bludgeoning Affinity increases by +2.<br>→ Stun effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Fire Magic Mastery": {
+"cost": "160",
+"req": "Fire Magic Expertise",
+"desc": "→ Fire Affinity increases by +2.<br>→ Burn effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Water Magic Mastery": {
+"cost": "160",
+"req": "Water Magic Expertise",
+"desc": "→ Water Affinity increases by +1.<br>→ Healing effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Air Magic Mastery": {
+"cost": "160",
+"req": "Air Magic Expertise",
+"desc": "→ Air Affinity increases by +1.<br>→ Chain effect increase by +15%.",
+"file": "PerksDB.Core.tdb"
+},
+"Earth Magic Mastery": {
+"cost": "160",
+"req": "Earth Magic Expertise",
+"desc": "→ Earth Affinity increases by +2.<br>→ Entangle effect increases by +1.<br>→ Entangled Enemies have +10% chance to lose their turn.",
+"file": "PerksDB.Core.tdb"
+},
+"Light Magic Mastery": {
+"cost": "160",
+"req": "Light Magic Expertise",
+"desc": "→ Light Affinity increases by +1.<br>→ Blessed effect increases by +3.<br>→ Destroy Undead effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Dark Magic Mastery": {
+"cost": "160",
+"req": "Dark Magic Expertise",
+"desc": "→ Dark Affinity increases by +3.<br>→ Healing effect decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Astral Magic Mastery": {
+"cost": "160",
+"req": "Astral Magic Expertise",
+"desc": "→ Astral Affinity increases by +1.<br>→ Control Enemy effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Alchemy Mastery": {
+"cost": "160",
+"req": "Alchemy Expertise",
+"desc": "→ Poison Affinity increases by +2.<br>→ Venom effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Healing Tinctures": {
+"cost": "120",
+"req": "Alchemy Expertise",
+"desc": "→ Healing effect increase by +2.<br>→ Venom effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Resolve)": {
+"cost": "120",
+"req": "Runic Tattoos",
+"desc": "→ You gain +2 Willpower.<br>→ Earth Affinity increases by +1.<br>→ Earth Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Alliance)": {
+"cost": "120",
+"req": "Runic Tattoos",
+"desc": "→ Ally cards gain +1 Lifespan.<br>→ Ally cards gain +6 Health.<br>→ Teamwork Damage increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Necrotic Skin II": {
+"cost": "120",
+"req": "Necrotic Skin",
+"desc": "→ You lose 2 Agility.<br>→ Slashing Resistance increases by +2.<br>→ Piercing Resistance increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Stealthy": {
+"cost": "120",
+"req": "",
+"desc": "→ Piercing Affinity increases by +1.<br>→ You gain +2 Agility.<br>→ Concealment effect increases by +5%.<br>→ Synergy Concealment effect increases by +5%.",
+"file": "PerksDB.Core.tdb"
+},
+"Fire Aura": {
+"cost": "120",
+"req": "",
+"desc": "→ Retribution effect increases by +6.<br>→ You gain +2 Fire Resistance.",
+"file": "PerksDB.Core.tdb"
+},
+"Cryokinetist": {
+"cost": "120",
+"req": "",
+"desc": "→ Freeze effect increases by +2.<br>→ You gain +2 Water Resistance.",
+"file": "PerksDB.Core.tdb"
+},
+"Ironclad": {
+"cost": "120",
+"req": "",
+"desc": "→ Piercing Resistance increases by +2.<br>→ Slashing Resistance increases by +2.<br>→ Fire Resistance decreases by 3.<br>→ Defend effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Heightened Awareness": {
+"cost": "120",
+"req": "",
+"desc": "→ Piercing Affinity increases by +1.<br>→ Resist Piercing effect increases by +1.<br>→ Defend effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Animist's Calling": {
+"cost": "120",
+"req": "",
+"desc": "→ Ally cards gain +6 Health.<br>→ 'Earth' Ally cards gain +3 Power.<br>→ Defend effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Still Mind": {
+"cost": "120",
+"req": "",
+"desc": "→ Willpower increase by +1.<br>→ Hex Ward effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Feral Mind": {
+"cost": "120",
+"req": "",
+"desc": "→ Willpower decreases by 2.<br>→ Bleed effects increase by +3.<br>→ Chaotic effects increase by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Hydrokinetist": {
+"cost": "120",
+"req": "",
+"desc": "→ Each time you craft a 'Hydrokinesis' Card, craft one more.<br>→ Amplify Water effect increases by +1",
+"file": "PerksDB.Core.tdb"
+},
+"Soul Binder": {
+"cost": "120",
+"req": "",
+"desc": "→ Drain Soul effect increases by +3.<br>→ Doom Conditions need 1 less Doom counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Unwavering Flames": {
+"cost": "120",
+"req": "Intense Flames",
+"desc": "→ Water Resistance increases by +2.<br>→ Synergy Retribution effect increases by +4. Synergy Intense effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Talk with Plants": {
+"cost": "120",
+"req": "",
+"desc": "→ Each time you craft a 'Forest Sight' card, craft one more.<br>→ Control Plants effect increases by +5.",
+"file": "PerksDB.Core.tdb"
+},
+"Pacifist": {
+"cost": "120",
+"req": "",
+"desc": "→ Rage Conditions need 1 less Rage counter to trigger.<br>→ Enemies with 'Rage' counters lose 3 HP before they act.<br>→ Healing effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Malleable Illusions": {
+"cost": "120",
+"req": "Realistic Illusions",
+"desc": "→ Astral Affinity increase by +1.<br>→ Replicate effect increases by +10%.<br>→ Amplify Dark effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Debilitating Phantasms": {
+"cost": "120",
+"req": "",
+"desc": "→ Intellect increases by +1.<br>→ Vulnerable effect increases by +2.<br>→ Cripple effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Leech": {
+"cost": "120",
+"req": "",
+"desc": "→ Drain effect increases by +3.<br>→ Gluttony effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Eldritch Arcana II": {
+"cost": "120",
+"req": "Eldritch Arcana I",
+"desc": "→ Dark Resistance increases by +2.<br>→ Fire Resistance increases by +2.<br>→ Synergy Retribution effect increase by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Expert Bladedancer": {
+"cost": "120",
+"req": "Novice Bladedancer",
+"desc": "→ Astral Resistance increases by +2.<br>→ Slashing Resistance increases by +2.<br>→ Synergy Fury effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Fleshgrafting": {
+"cost": "120",
+"req": "",
+"desc": "→ Ally cards gain +2 Health.<br>→ 'Dark' Ally cards gain +4 Power.<br>→ Synergy Power effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Evasion": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +3 Agility.<br>→ Defend effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Savage Strikes": {
+"cost": "160",
+"req": "",
+"desc": "→ Bleed effect increases by +4.<br>→ Synergy Primal effect increases by +2.<br>→ Bleeding Conditions need 1 less Bleeding counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Angelic Halo": {
+"cost": "160",
+"req": "",
+"desc": "→ Light Resistance increases by +3.<br>→ Dark Resistance decreases by 2.<br>→ Blessed effect increases by +3.<br>→ Consecrate effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Wet Skin": {
+"cost": "160",
+"req": "",
+"desc": "→ Fire Resistance increases by +3.<br>→ Water Resistance decreases by 3.<br>→ Freeze effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Venom Extraction": {
+"cost": "160",
+"req": "Alchemy Expertise",
+"desc": "→ Venom effect increases by +2.<br>→ Healing effects decrease by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Embodiment of Desire": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +3 Charisma.<br>→ Lust effect increase by +3.<br>→ Bewitched Conditions need 1 less Bewitched counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Embodiment of Fire": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +3 Agility.<br>→ Fire Resistance increases by +2.<br>→ Intense effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Embodiment of Water": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +3 Intellect.<br>→ Water Resistance increases by +2.<br>→ Healing effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Embodiment of Earth": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +3 Resilience.<br>→ Earth Resistance increases by +2.<br>→ Defend effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Embodiment of Air": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +3 Agility.<br>→ Air Resistance increases by +2.<br>→ Piercing Affinity increases by +1.<br>→ Air Affinity increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Embodiment of Light": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +3 Willpower.<br>→ Light Affinity increases by +2.<br>→ Dark Resistance increases by +2.<br>→ Greed effect decreases by 2.<br>→ Envy effect decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Sheer Garments": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +2 Charisma.<br>→ You gain +1 Agility.<br>→ Defend effect decreases by 1.<br>→ Lust effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Allure": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ You gain +2 Agility.<br>→ Astral Affinity increases by +1.<br>→ Piercing Affinity increase by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Scaled Skin": {
+"cost": "160",
+"req": "",
+"desc": "→ You lose 2 Charisma.<br>→ You gain +1 Agility.<br>→ Slashing Resistance increases by +2.<br>→ Piercing Resistance increases by +2.<br>→ Bludgeoning Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Uncontrollable Thirst": {
+"cost": "160",
+"req": "",
+"desc": "→ Drain effect increases by +3.<br>→ You lose 1 Willpower.",
+"file": "PerksDB.Core.tdb"
+},
+"Blood Addiction": {
+"cost": "160",
+"req": "",
+"desc": "→ Drain effect increases by +3.<br>→ Gluttony effect increases by +3.<br>→ You lose 2 Willpower.",
+"file": "PerksDB.Core.tdb"
+},
+"Primal Might": {
+"cost": "160",
+"req": "",
+"desc": "→ Primal effect increases by +4.<br>→ You gain +3 Strength.<br>→ You lose 2 Agility<br>→ You lose 4 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Lust": {
+"cost": "160",
+"req": "",
+"desc": "→ Lust Rule changes to: 'Bewitched Enemies suffer x Intense Damage + 7, for each Bewitched Enemy damaged before them'.<br>→ Bewitch effect increases by +1.<br>→ You gain +3 Charisma.<br>→ You lose 2 Strength.",
+"file": "PerksDB.Core.tdb"
+},
+"Wrath": {
+"cost": "160",
+"req": "",
+"desc": "→ Retribution effect increases by +4.<br>→ Wrath effect increases by +2.<br>→ You gain +2 Strength.<br>→ You lose 2 Willpower.",
+"file": "PerksDB.Core.tdb"
+},
+"Envy": {
+"cost": "160",
+"req": "",
+"desc": "→ Envy effect increases by +3.<br>→ Amplify Dark effect increases by +2.<br>→ Fire Affinity increases by +2.<br>→ Healing effect decrease by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Gluttony": {
+"cost": "160",
+"req": "",
+"desc": "→ Gluttony effect increases by +5.<br>→ You gain +8 HP.<br>→ You lose 4 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Sloth": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +20 HP.<br>→ Hand size is reduced by 2.<br>→ Sloth effect increases by +5.<br>→ Weaken effect increases by +3.<br>→ Stun effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Greed": {
+"cost": "160",
+"req": "",
+"desc": "→ You lose 3 Charisma.<br>→ You lose 2 Willpower.<br>→ Greed effect increases by +4.<br>→ Whenever you Draw a card through an Action, you draw an additional card (Focus +1).",
+"file": "PerksDB.Core.tdb"
+},
+"Pride": {
+"cost": "160",
+"req": "",
+"desc": "→ Pride effect increases by +4.<br>→ Summon Limit decreases by 1.<br>→ Ally cards gain -1 Lifespan.<br>→ 'Dark' Ally cards gain +6 Power.",
+"file": "PerksDB.Core.tdb"
+},
+"Adept Exorcist": {
+"cost": "160",
+"req": "",
+"desc": "→ Blessed effect increases by +4.<br>→ Banish effects increases by +4<br>→ Destroy Wicked effect increases by +2",
+"file": "PerksDB.Core.tdb"
+},
+"Angelic Blessing": {
+"cost": "160",
+"req": "",
+"desc": "→ Healing effect increases by +4.<br>→ Blessed effect increases by +3.<br>→ Light Affinity increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Anatomy Lessons": {
+"cost": "160",
+"req": "",
+"desc": "→ Sneak Attack effect increases by +1.<br>→ Cripple effect increases by +2.<br>→ Piercing Affinity increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Anatomy Expert": {
+"cost": "160",
+"req": "",
+"desc": "→ Vulnerable effect increases by +2.<br>→ Bleeding effect increases by +3.<br>→ Bleeding Conditions need 1 less Bleeding counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Hypnotic Presence": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +2 Charisma.<br>→ Bewitch effect increases by +1.<br>→ Bewitched Conditions need 1 less Bewitched counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Irresistible": {
+"cost": "160",
+"req": "",
+"desc": "→ You gain +2 Charisma.<br>→ Lust effects increase by +5.<br>→ 'Bewitched' Enemies lose 3 HP before they act.",
+"file": "PerksDB.Core.tdb"
+},
+"Insatiable": {
+"cost": "160",
+"req": "",
+"desc": "→ Whenever you gain Blood Surge you gain +1 more.<br>→ Drain effects increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Aeromancer Apprentice": {
+"cost": "160",
+"req": "",
+"desc": "→ Air Affinity increases by +1.<br>→ Air Resistance increase by +1.<br>→ Chain effect increases by +5%.<br>→ Water Affinity decreases by 1.<br>→ Fire Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Hydromancer Apprentice": {
+"cost": "160",
+"req": "",
+"desc": "→ Water Affinity increases by +1.<br>→ Water Resistance increases by +1.<br>→ Freeze effect increases by +1.<br>→ Air Affinity decreases by 1.<br>→ Fire Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Pyromancer Apprentice": {
+"cost": "160",
+"req": "",
+"desc": "→ Fire Affinity increases by +1.<br>→ Fire Resistance increases by +1.<br>→ Amplify Fire effect increases by +2.<br>→ Water Affinity decreases by 1.<br>→ Air Affinity decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Focus (Vampires)": {
+"cost": "160",
+"req": "",
+"desc": "→ 'Vampire' Bane effect increases by +5.<br>→ Each time you craft a 'Final Death' card, craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Focus (Werewolves)": {
+"cost": "160",
+"req": "",
+"desc": "→ 'Lycanthrope' Bane effect increases by +5.<br>→ Synergy Silver effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Accelerated Healing": {
+"cost": "160",
+"req": "",
+"desc": "→ Healing effect increases by +4.<br>→ Synergy Healing effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Grim Reaper": {
+"cost": "160",
+"req": "",
+"desc": "→ Slashing Affinity increases by +2.<br>→ Dark Affinity increases by +1.<br>→ Drain Soul effect increases by +3.<br>→ Destroy Enemy effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Blightbringer": {
+"cost": "160",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Poison Affinity increases by +2.<br>→ Each time you craft a 'Plague' card, craft one more.<br>→ Cripple effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Bonecrafter": {
+"cost": "160",
+"req": "",
+"desc": "→ Each time a card Mutates to a 'Skeletal Minion', receive an additional copy.<br>→ Each time you craft a 'Skeletal Minion' Card, craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Peer through the Veil": {
+"cost": "160",
+"req": "",
+"desc": "→ Astral Affinity increases by +2.<br>→ Banish effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Haunted": {
+"cost": "160",
+"req": "",
+"desc": "→ Cursed effect increases by +1.<br>→ Each time you craft a 'Malevolent Spirit' card, craft one more.<br>→ Synergy Envy effect increase by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Medium": {
+"cost": "160",
+"req": "",
+"desc": "→ Cursed effect decreases by 1.<br>→ Each time you craft a 'Repentant Spirit' card, you craft one more.<br>→ Synergy Healing effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Binding Rituals": {
+"cost": "160",
+"req": "Witchcraft Traditions",
+"desc": "→ Control Enemy effect increases by +3.<br>→ Weaken effect increases by +3.<br>→ Vulnerable Conditions need 1 less Vulnerable counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Vine Magic Specialist": {
+"cost": "160",
+"req": "",
+"desc": "→ Earth Affinity increases by +1.<br>→ Bludgeoning Affinity increases by +1.<br>→ Entangle effect increases by +2.<br>→ Entangled Enemies have +10% chance to lose their turn.",
+"file": "PerksDB.Core.tdb"
+},
+"Malice": {
+"cost": "160",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Retribution effect increases by +4.<br>→ Synergy Damage effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"If Dreams could Kill": {
+"cost": "160",
+"req": "",
+"desc": "→ Intense effect increases by +2.<br>→ Each time you craft 'Just a Bad Dream' or 'Living Nightmare' cards, craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Ferocity)": {
+"cost": "180",
+"req": "Runic Tattoos",
+"desc": "→ Slashing Affinity increases by +1.<br>→ Bludgeoning Affinity increases by +1.<br>→ Wrath effect increases by +3.<br>→ Primal effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Alacrity)": {
+"cost": "180",
+"req": "Runic Tattoos",
+"desc": "→ You gain +2 Agility.<br>→ You gain +4 AP.<br>→ Defend effect increases by +1.<br>→ Synergy Defend effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Clarity)": {
+"cost": "180",
+"req": "Runic Tattoos",
+"desc": "→ You gain +2 Intellect.<br>→ Discard effect decreases by 1.<br>→ Strain effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Savage Fury": {
+"cost": "180",
+"req": "",
+"desc": "→ Fury effect increases by +1.<br>→ Synergy Damage effect increases by +1.<br>→ Defend effect decreases by 2.<br>→ Synergy Defend effect decreases by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Blood Harvester": {
+"cost": "180",
+"req": "",
+"desc": "→ Bleed effect increase by +5.<br>→ Gluttony effect increases by +3.<br>→ Synergy Drain effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (War Pledge)": {
+"cost": "200",
+"req": "Runic Tattoos",
+"desc": "→ You gain +3 Strength.<br>→ Damage effect increases by +2.<br>→ Valor effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Ink Rune (Peace Pledge)": {
+"cost": "200",
+"req": "Runic Tattoos",
+"desc": "→ You gain +10 HP.<br>→ Damage effect decreases by 1.<br>→ Defend effect increases by +2.<br>→ Greed effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Wishmaster": {
+"cost": "200",
+"req": "",
+"desc": "→ You gain +1 Hand size.<br>→ Greed effect increases by +3.<br>→ Whenever you craft a random card through an Action, craft an additional card (Invoke +1).",
+"file": "PerksDB.Core.tdb"
+},
+"Supercharge": {
+"cost": "200",
+"req": "",
+"desc": "→ You lose 16 HP.<br>→ You gain +8 AP.<br>→ Empower effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Tranquility": {
+"cost": "200",
+"req": "",
+"desc": "→ You gain +6 AP.<br>→ Actions restore +3 AP.<br>→ Healing effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Levitate": {
+"cost": "200",
+"req": "",
+"desc": "→ Defend increases by +2.<br>→ Retribution effect increases by +5.<br>→ Resist Physical effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Impenetrable Skin": {
+"cost": "200",
+"req": "",
+"desc": "→ Defend effect increases by +1.<br>→ Slashing Resistance increase by +1.<br>→ Piercing Resistance increases by +1.<br>→ Bludgeoning Resistance increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Rapid Healing": {
+"cost": "200",
+"req": "",
+"desc": "→ Healing effect increases by +12.",
+"file": "PerksDB.Core.tdb"
+},
+"Expert Summoner": {
+"cost": "200",
+"req": "Adept Summoner",
+"desc": "→ Ally cards gain +6 Health.<br>→ Ally cards gain +2 Lifespan.<br>→ Summon Limit increases by +1 (Max 9).",
+"file": "PerksDB.Core.tdb"
+},
+"Call of the Alpha": {
+"cost": "200",
+"req": "Alpha",
+"desc": "→ Ally cards gain +1 Lifespan.<br>→ Ally cards gain +6 Power.<br>→ Ally cards gain +6 Health.",
+"file": "PerksDB.Core.tdb"
+},
+"Master Tactician": {
+"cost": "200",
+"req": "",
+"desc": "→ Handsize increase by +1.<br>→ You gain +2 Intellect.<br>→ You gain +2 Charisma.",
+"file": "PerksDB.Core.tdb"
+},
+"Goddess Chosen": {
+"cost": "200",
+"req": "",
+"desc": "→ Whenever you gain Grace you gain +2 more.<br>→ Defend effect increases by +2.<br>→ Synergy Bewitch effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Voracious": {
+"cost": "200",
+"req": "",
+"desc": "→ Each time you craft a 'Feed' card, craft one more.<br>→ Synergy Drain effect increases by +3.<br>→ Gluttony effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Blood Connoisseur": {
+"cost": "200",
+"req": "",
+"desc": "→ Empower effect increases by +2.<br>→ You expend 2 less 'Blood Surge' (down to 0).",
+"file": "PerksDB.Core.tdb"
+},
+"Expert Assassin": {
+"cost": "200",
+"req": "Novice Assassin",
+"desc": "→ Poison Affinity increases by +2.<br>→ Cripple effect increases by +2.<br>→ Whenever a card mutates to 'Weak Poison', create an extra copy.",
+"file": "PerksDB.Core.tdb"
+},
+"Beta": {
+"cost": "200",
+"req": "Omega",
+"desc": "→ You gain +2 Strength.<br>→ Resist Physical effect increases by +1.<br>→ Defend effect increases by +1.<br>→ Each time you craft 'Curse of Lycanthropy' card, craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Natural Armor II": {
+"cost": "200",
+"req": "Natural Armor",
+"desc": "→ Defend effect increases by +1.<br>→ Slashing Resistance increases by +2.<br>→ Piercing Resistance increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Desert Warrior": {
+"cost": "200",
+"req": "",
+"desc": "→ Slashing Affinity increases by +2. Earth Affinity increases by +2.<br>→ Water Affinity decreases by 3.<br>→ Chaotic effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Volatile": {
+"cost": "200",
+"req": "",
+"desc": "→ Fire Affinity increases by +4.<br>→ Fury effect increases by +2.<br>→ All Actions now cost +1 AP more.",
+"file": "PerksDB.Core.tdb"
+},
+"Harvest Rituals": {
+"cost": "200",
+"req": "Witchcraft Traditions",
+"desc": "→ Each time you craft 'Quality Pumpkin' or 'Animate Scarecrow' cards, craft one more.<br>→ Synergy Power effect increases by +6.",
+"file": "PerksDB.Core.tdb"
+},
+"Vineleaf Garments": {
+"cost": "200",
+"req": "",
+"desc": "→ Resist Earth effect increases by +2.<br>→ Resist Slashing effect increases by +2.<br>→ Discard effect decreases by 1.<br>→ Whenever you gain Grace you gain +1 more.",
+"file": "PerksDB.Core.tdb"
+},
+"Hatred": {
+"cost": "200",
+"req": "",
+"desc": "→ Slashing Affinity increases by +2.<br>→ Dark Affinity increases by +2.<br>→ Light Affinity decreases by 3.<br>→ Destroy Enemy effects increase by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Inquisition Dogma": {
+"cost": "200",
+"req": "Inquisition Tenets",
+"desc": "→ Light Affinity increases by +2.<br>→ Wrath effect increases by +3.<br>→ Valor effect increases by +3.<br>→ Whenever you gain Judgement you gain +1 more. ",
+"file": "PerksDB.Core.tdb"
+},
+"Holy Edict": {
+"cost": "200",
+"req": "",
+"desc": "→ Destroy Undead effect increases by +5.<br>→ Blessed effect increases by +5.",
+"file": "PerksDB.Core.tdb"
+},
+"Potent Illusions": {
+"cost": "200",
+"req": "Malleable Illusions",
+"desc": "→ You gain +2 Willpower.<br>→ Synergy Vulnerable effect increases by +3.<br>→ Intense effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Exotic Dancer II": {
+"cost": "200",
+"req": "Exotic Dancer",
+"desc": "→ You gain +2 Charisma.<br>→ You gain +2 Agility.<br>→ Synergy Defend effect increases by +1.<br>→ Whenever you gain Grace you gain +1 more. ",
+"file": "PerksDB.Core.tdb"
+},
+"Coven Rituals": {
+"cost": "200",
+"req": "Coven Traditions",
+"desc": "→ You gain access to 'Yuletide Dance' and 'Five Fold Kiss' skills.<br>→ Synergy Damage increases by +1.<br>→ Whenever you gain Grace you gain +1 more.",
+"file": "PerksDB.Core.tdb"
+},
+"Psionic Mastery": {
+"cost": "240",
+"req": "Psionic Expertise",
+"desc": "→ Astral Affinity increases by +1.<br>→ Astral Resistance increases by +3.<br>→ Your Synergy Intense effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Dreamweaver": {
+"cost": "240",
+"req": "",
+"desc": "→ Vulnerable effect increases by +3.<br>→ Stun effect increases by +1.<br>→ Astral Resistance increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Dancer's Grace": {
+"cost": "240",
+"req": "",
+"desc": "→ You gain +3 Agility.<br>→ You gain +2 Charisma.<br>→ Synergy Defend effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Anatomy Lessons II": {
+"cost": "240",
+"req": "Anatomy Lessons",
+"desc": "→ Sneak Attack effect increases by +1.<br>→ Vulnerable effect increases by +4.<br>→ Cripple effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Higher Calling": {
+"cost": "240",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ Bludgeoning Affinity increases by +1.<br>→ Light Affinity increases by +1.<br>→ Valor effect increases by +3.<br>→ Pride effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Animist's Aura": {
+"cost": "240",
+"req": "Animist's Calling",
+"desc": "→ Ally cards gain +1 Lifespan.<br>→ Ally cards gain +8 Health.<br>→ Heal Allies effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Expert Cryokinetist": {
+"cost": "240",
+"req": "Cryokinetist",
+"desc": "→ Water Affinity increases by +2.<br>→ Synergy Freeze effect increases by +1.<br>→ Frozen Conditions need 1 less Frozen counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Expert Electromancer": {
+"cost": "240",
+"req": "",
+"desc": "→ Air Affinity increases by +2.<br>→ Amplify Air effect increases by +1.<br>→ Immobilized Conditions need 1 less Immobilized counter to trigger.",
+"file": "PerksDB.Core.tdb"
+},
+"Empath": {
+"cost": "240",
+"req": "Medium",
+"desc": "→ Discard effect increases by +2.<br>→ Wrath effect increases by +3.<br>→ Envy effect increases by +3.<br>→ Pride effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Bulwark": {
+"cost": "240",
+"req": "",
+"desc": "→ Defend effect increases by +2.<br>→ Resist Physical effect increases by +2.<br>→ Damage effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Aura of Despair": {
+"cost": "240",
+"req": "",
+"desc": "→ Amplify Dark effect increases by +1.<br>→ Vulnerable effect increases by +4.<br>→ Weaken effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Guardian of the Flame": {
+"cost": "240",
+"req": "",
+"desc": "→ Fire Affinity increases by +3.<br>→ Fire Resistance increases by +3.<br>→ Pride effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Illusory Clones": {
+"cost": "240",
+"req": "",
+"desc": "→ Multicast effect increases by +1.<br>→ Each time you would Summon more than one Allies (with the same Action), you Summon +1 Allies (Qty +1).",
+"file": "PerksDB.Core.tdb"
+},
+"Blood Puppets": {
+"cost": "240",
+"req": "",
+"desc": "→ You expend 1 less 'Blood Surge' (down to 0).<br>→ Drain effect increases by +3.<br>→ Each time you craft 'Vigor Mortis' craft one more.",
+"file": "PerksDB.Core.tdb"
+},
+"Blood Transference": {
+"cost": "240",
+"req": "",
+"desc": "→ Healing effect decreases by 3.<br>→ 'Dark' Ally cards gain +4 Power.<br>→ 'Dark' Ally cards gain +4 Health.",
+"file": "PerksDB.Core.tdb"
+},
+"Eldritch Arcana III": {
+"cost": "240",
+"req": "Eldritch Arcana II",
+"desc": "→ Dark Affinity increases by +2.<br>→ Fire Affinity increases by +2.<br>→ Intense effect increases by +2.<br>→ Vulnerable effect increase by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Fleshsculptor": {
+"cost": "240",
+"req": "",
+"desc": "→ Pride effect increases by +3.<br>→ Kill effect increases by +1%.<br>→ Synergy Power effect increases by +6.",
+"file": "PerksDB.Core.tdb"
+},
+"Master Bladedancer": {
+"cost": "240",
+"req": "Expert Bladedancer",
+"desc": "→ You gain +2 Agility.<br>→ Slashing Affinity increases by +2.<br>→ Fatigue effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Angelic Wings": {
+"cost": "280",
+"req": "Angelic Halo",
+"desc": "→ Light Affinity increases by +2.<br>→ Fire Affinity increases by +2.<br>→ Slashing Affinity increase by +2.<br>→ Dark, Air and Bludgeoning Resistances decrease by 2.",
+"file": "PerksDB.Core.tdb"
+},
+"Pull of Darkness": {
+"cost": "280",
+"req": "",
+"desc": "→ Dark Affinity increases by +3.<br>→ Light Resistance increases by +3.<br>→ Light Affinity decreases by 3.<br>→ Healing effect decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Intangibility": {
+"cost": "280",
+"req": "",
+"desc": "→ Slashing Resistance increases by +3.<br>→ Piercing Resistance increases by +3.<br>→ Bludgeoning Resistance increases by +3.<br>→ Astral Resistance decreases by 5.",
+"file": "PerksDB.Core.tdb"
+},
+"Skyclad": {
+"cost": "280",
+"req": "",
+"desc": "→ You gain +3 Charisma.<br>→ You gain +3 Agility.<br>→ Defend effect decreases by 3.<br>→ Earth Affinity increases by +3.<br>→ Astral Affinity increases by +3",
+"file": "PerksDB.Core.tdb"
+},
+"Master Illusionist": {
+"cost": "280",
+"req": "",
+"desc": "→ Echo effect increases by +1.<br>→ Dark Affinity increases by +1.<br>→ Astral Affinity increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Nocturnal Predator": {
+"cost": "280",
+"req": "",
+"desc": "→ Concealment effect increases by +5%.<br>→ Primal Damage increases by +1.<br>→ Drain effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Feral Rage": {
+"cost": "280",
+"req": "Feral Mind",
+"desc": "→ Chaotic Damage increases by +3.<br>→ Fury effect increases by +1.<br>→ Primal effect increases by +3.",
+"file": "PerksDB.Core.tdb"
+},
+"Malleus Maleficarum": {
+"cost": "280",
+"req": "",
+"desc": "→ Wrath effect increases by +3.<br>→ 'Undead' Bane effect increases by +5.<br>→ Bludgeoning Affinity increases by +2.<br>→ Fire Affinity increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Master Summoner": {
+"cost": "280",
+"req": "Expert Summoner",
+"desc": "→ Ally cards gain +6 Power.<br>→ Ally cards gain +8 Health.<br>→ Each time you would Summon more than one Allies (with the same Action), you Summon +1 Allies (Qty +1).",
+"file": "PerksDB.Core.tdb"
+},
+"Master Exorcist": {
+"cost": "280",
+"req": "Adept Exorcist",
+"desc": "→ Blessed effect increases by +4.<br>→ Destroy Undead effect increases by +4<br>→ Banish effect increases by +6.",
+"file": "PerksDB.Core.tdb"
+},
+"One with Shadows": {
+"cost": "280",
+"req": "",
+"desc": "→ Concealment effect increase by +10%.<br>→ Shadow Shift effect increases by +2.<br>→ Dark Affinity increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Progenitor": {
+"cost": "280",
+"req": "",
+"desc": "→ You gain 'Progeny' as a Skill.<br>→ Synergy Power effect increases by +4.<br>→ Synergy Health effect increases +6.",
+"file": "PerksDB.Core.tdb"
+},
+"Aeromancer Adept": {
+"cost": "280",
+"req": "Aeromancer Apprentice",
+"desc": "→ Air Affinity increases by +2.<br>→ Concealment effect increases by +5%.<br>→ You gain +2 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Hydromancer Adept": {
+"cost": "280",
+"req": "Hydromancer Apprentice",
+"desc": "→ Water Affinity increases by +2.<br>→ Freeze effect increases by +2.<br>→ Actions restore +2 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Pyromancer Adept": {
+"cost": "280",
+"req": "Pyromancer Apprentice",
+"desc": "→ Fire Affinity increases by +2.<br>→ Amplify Fire effect increases by +2.<br>→ Retribution effect increases by +6.",
+"file": "PerksDB.Core.tdb"
+},
+"Demon of Lust": {
+"cost": "280",
+"req": "Lust",
+"desc": "→ Lust effect increases by +5.<br>→ Bewitched Conditions need 1 less Bewitched counter to trigger.<br>→ 'Bewitched' Enemies lose 4 HP before they act.",
+"file": "PerksDB.Core.tdb"
+},
+"Demon of Wrath": {
+"cost": "280",
+"req": "Wrath",
+"desc": "→ You gain +3 Strength.<br>→ Wrath effect increases by +4.<br>→ Fury effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Demon of Envy": {
+"cost": "280",
+"req": "Envy",
+"desc": "→ Envy effect increases by +4.<br>→ Blood Offering effect increases by +4.<br>→ Sacrifice effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Demon of Gluttony": {
+"cost": "280",
+"req": "Gluttony",
+"desc": "→ You gain +10 HP.<br>→ You lose 5 AP.<br>→ Healing effect increases by +4.<br>→ Gluttony effect increases by +4.<br>→ Drain Soul effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Demon of Sloth": {
+"cost": "280",
+"req": "Sloth",
+"desc": "→ You lose 3 Agility.<br>→ You lose 8 AP.<br>→ You gain +20 HP.<br>→ Sloth effect increases by +5.<br>→ Echo effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Demon of Greed": {
+"cost": "280",
+"req": "Greed",
+"desc": "→ Greed effect increases by +5.<br>→ You can carry +400 Farthings more. <br>→ Actions that yield Farthings give +10.",
+"file": "PerksDB.Core.tdb"
+},
+"Demon of Pride": {
+"cost": "280",
+"req": "Pride",
+"desc": "→ Pride effect increases by +4.<br>→ Enemies with 'Benefactor' counters lose 5 HP before they act.",
+"file": "PerksDB.Core.tdb"
+},
+"Air Mimicry": {
+"cost": "280",
+"req": "",
+"desc": "→ Air Affinity increase by +2.<br>→ Slashing Resistance increases by +2.<br>→ Synergy Concealment effect increases by 10%.<br>→ Chain effect increase by +10%.",
+"file": "PerksDB.Core.tdb"
+},
+"Spirit Conduit": {
+"cost": "280",
+"req": "Medium",
+"desc": "→ Cursed effect decreases by 1.<br>→ Discard effect decreases by 1.<br>→ Each time a card Mutates to 'Possession', receive an additional copy.",
+"file": "PerksDB.Core.tdb"
+},
+"Chaos Incarnate": {
+"cost": "280",
+"req": "",
+"desc": "→ Fire Resistance increases by +4.<br>→ Chaotic effect increases by +4.<br>→ Explode effect increases by +6. ",
+"file": "PerksDB.Core.tdb"
+},
+"Sex Magic": {
+"cost": "280",
+"req": "",
+"desc": "→ Lust effect increases by +5.<br>→ Bewitched Conditions need 1 less Bewitched counter to trigger.<br>→ Control Enemy effect increases by +4.",
+"file": "PerksDB.Core.tdb"
+},
+"Grove Matron": {
+"cost": "280",
+"req": "",
+"desc": "→ You gain 'Woodland Ally' and 'Woodland Nymph' as Skills.<br>→ 'Earth' Ally cards gain +4 Health.<br>→ 'Earth' Ally cards gain +4 Power.",
+"file": "PerksDB.Core.tdb"
+},
+"Thirst for Power": {
+"cost": "280",
+"req": "",
+"desc": "→ Greed effect increases by +3.<br>→ Pride effect increases by +3.<br>→ 'Dark' Ally cards gain 8 Power.",
+"file": "PerksDB.Core.tdb"
+},
+"Master Hunter": {
+"cost": "320",
+"req": "",
+"desc": "→ You gain +3 Agility.<br>→ Piercing Affinity increases by +3.<br>→ Fire Affinity increase by +2.<br>→ Silver effect increases by +1. ",
+"file": "PerksDB.Core.tdb"
+},
+"Hired Muscle": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Mercenary Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Acolyte of the Flame": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Inquisitor Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Arcane Studies": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Mystic Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Shadow Adept": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Shadow Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Animism": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Animist Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Dark Arts": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Necromancer Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Occult Mysteries": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Witch Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Demonology": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Warlock Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Illusion Spinner": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Illusionist Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Vampire Hunter": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Hunter Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Temple Acolyte": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Exorcist Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Vampirism": {
+"cost": "360",
+"req": "",
+"desc": "→ You count as a Vampire in addition to your race. You can learn Vampire Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Deathless Warrior": {
+"cost": "360",
+"req": "",
+"desc": "→ You can learn Death Knight Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Animist's Visage": {
+"cost": "360",
+"req": "Animist's Aura",
+"desc": "→ Earth Affinity increase by +3.<br>→ 'non-Earth' Ally cards gain +3 Power.<br>→ 'Earth' Ally cards gain +6 Power.",
+"file": "PerksDB.Core.tdb"
+},
+"Blade Dancer": {
+"cost": "360",
+"req": "",
+"desc": "→ You gain +3 Agility.<br>→ Your Slashing Affinity increases by +3.<br>→ You can learn Spelldancer Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Covenant": {
+"cost": "360",
+"req": "",
+"desc": "→ Astral Affinity increases by +3.<br>→ Ally cards gain +6 Health.<br>→ 'Astral' Ally cards gain +2 Lifespan.",
+"file": "PerksDB.Core.tdb"
+},
+"Fire Invulnerability": {
+"cost": "400",
+"req": "",
+"desc": "→ Fire Resistance increases by +25.<br>→ Water Resistance decreases by 10.",
+"file": "PerksDB.Core.tdb"
+},
+"Water Invulnerability": {
+"cost": "400",
+"req": "",
+"desc": "→ Water Resistance increases by +25.<br>→ Fire Resistance decreases by 10.",
+"file": "PerksDB.Core.tdb"
+},
+"Air Invulnerability": {
+"cost": "400",
+"req": "",
+"desc": "→ Air Resistance increases by +25.<br>→ Earth Resistance decreases by 10.",
+"file": "PerksDB.Core.tdb"
+},
+"Tree Bond": {
+"cost": "400",
+"req": "",
+"desc": "→ You gain +12 HP.<br>→ Healing effect increases by +6.<br>→ Earth Resistance increases by +12.<br>→ Earth Affinity increases by +3.<br>→ Fire Affinity decreases by 6.<br>→ Fire Resistance decreases by 6.",
+"file": "PerksDB.Core.tdb"
+},
+"Angelic Wrath": {
+"cost": "400",
+"req": "",
+"desc": "→ Wrath effect increases by +6.<br>→ Slashing Affinity increases by +2.<br>→ Light Affinity increases by +2.<br>→ You gain +3 Strength.",
+"file": "PerksDB.Core.tdb"
+},
+"Uncanny Celerity": {
+"cost": "400",
+"req": "",
+"desc": "→ You gain +3 Agility.<br>→ Actions cost 1 AP less (down to 0).",
+"file": "PerksDB.Core.tdb"
+},
+"Master Assassin": {
+"cost": "400",
+"req": "Expert Assassin",
+"desc": "→ Poison Affinity increase by +3.<br>→ Destroy Enemy effect increases by +4.<br>→ Kill effect increases by +1%.<br>→ Whenever a card Mutates to 'Potent Poison', create an extra copy.",
+"file": "PerksDB.Core.tdb"
+},
+"Alpha": {
+"cost": "400",
+"req": "Beta",
+"desc": "→ Slashing Affinity increases by +2.<br>→ Ally cards gain +6 Power.<br>→ Primal effect increases by +3.<br>→ You gain 'Secluded Cave' and 'Obey the Alpha!' as a Skills.",
+"file": "PerksDB.Core.tdb"
+},
+"Heaven's Enmity": {
+"cost": "400",
+"req": "",
+"desc": "→ Dark Affinity increases by +3.<br>→ Chaotic effect increases by +3.<br>→ Drain Soul effect increase by +3.<br>→ Light Affinity, Light Resistance and Healing effect each decreases by 3.",
+"file": "PerksDB.Core.tdb"
+},
+"Lichdom": {
+"cost": "400",
+"req": "",
+"desc": "→ You count as Undead.<br>→ Intellect and Resilience +3.<br>→ Agility and Charisma -2.<br>→ Dark Affinity and Resistance +4.<br>→ Multicast, Doom and Weaken effects +2.<br>→ Light/Fire Affinities and Light/Fire Resistances -4.",
+"file": "PerksDB.Core.tdb"
+},
+"Uncanny Reflexes": {
+"cost": "400",
+"req": "",
+"desc": "→ You gain +10 AP.<br>→ You gain +3 Agility.<br>→ Multicast effect increases by +1.",
+"file": "PerksDB.Core.tdb"
+},
+"Spelldancer of Hecate": {
+"cost": "400",
+"req": "",
+"desc": "→ You gain +3 Charisma.<br>→ You gain +3 Agility.<br>→ You can learn Spelldancer Actions.",
+"file": "PerksDB.Core.tdb"
+},
+"Embodiment of Lust": {
+"cost": "400",
+"req": "",
+"desc": "→ You gain +2 Charisma.<br>→ Astral Affinity increases by +2.<br>→ Lust effect increases by +5.<br>→ Inevitable Vulnerable effect increases by +2.<br>→ 'Bewitched' Enemies lose 6 HP before they act.",
+"file": "PerksDB.Core.tdb"
+},
+"High Inquisitor": {
+"cost": "400",
+"req": "Inquisition Dogma",
+"desc": "→ Pride effect increases by +3.<br>→ Wrath effects increase by +3.<br>→ Discard effect decreases by 1.<br>→ You gain 'Peer in the Flames' as a Skill.",
+"file": "PerksDB.Core.tdb"
+},
+"Deadly Momentum": {
+"cost": "400",
+"req": "Master Bladedancer",
+"desc": "→ Amplify Slashing effect increases by +3.<br>→ Multicast effect increases by 1.<br>→ You expend 1 less 'Momentum' (down to 0).",
+"file": "PerksDB.Core.tdb"
+},
+"Herbal Lore": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain 'Herbal Lore' Skill.",
+"file": "PerksDB.Core.tdb"
+},
+"Coven Witch": {
+"cost": "120",
+"req": "Coven Traditions",
+"desc": "→ You gain 'Coven Witch' and 'Five Fold Kiss' Skills.",
+"file": "PerksDB.Core.tdb"
+},
+"High Priestess": {
+"cost": "200",
+"req": "Coven Witch",
+"desc": "→ You gain access to 'Yuletide Dance' and 'Draw the Moon' skills.<br>→ Synergy Damage effect increases by +1.<br>→ Whenever you gain Grace you gain +1 more.",
+"file": "PerksDB.Core.tdb"
+},
+"Minor Arcana": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain 'Minor Arcana' and 'Arcane Aura' Skills.",
+"file": "PerksDB.Core.tdb"
+},
+"Major Arcana": {
+"cost": "160",
+"req": "Minor Arcana",
+"desc": "→ You gain 'Major Arcana' and 'Arcane Prodigy' Skills.",
+"file": "PerksDB.Core.tdb"
+},
+"Hermetic Studies I": {
+"cost": "40",
+"req": "",
+"desc": "→ Astral Affinity increases by +1.<br>→ You gain +1 Intellect.",
+"file": "PerksDB.Core.tdb"
+},
+"Hermetic Studies II": {
+"cost": "80",
+"req": "Hermetic Studies I",
+"desc": "→ Synergy Damage effect increases by +1.<br>→ Chaotic effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Hermetic Studies III": {
+"cost": "160",
+"req": "Hermetic Studies II",
+"desc": "→ You gain +2 Intellect.<br>→ Synergy Multicast effect increases by +1.<br>→ Strain effect decreases by 1.",
+"file": "PerksDB.Core.tdb"
+},
+"Traveler": {
+"cost": "60",
+"req": "",
+"desc": "→ You can carry +1 Rations.<br>→ You can carry +200 Farthings.",
+"file": "PerksDB.Core.tdb"
+},
+"Explorer": {
+"cost": "120",
+"req": "Traveler",
+"desc": "→ You can carry +1 Rations.<br>→ You can carry +400 Farthings.",
+"file": "PerksDB.Core.tdb"
+},
+"Fit": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +1 Resilience.<br>→ You gain +4 HP.",
+"file": "PerksDB.Core.tdb"
+},
+"Astute": {
+"cost": "40",
+"req": "",
+"desc": "→ You gain +1 Intellect.<br>→ You gain +3 AP.",
+"file": "PerksDB.Core.tdb"
+},
+"Determined": {
+"cost": "80",
+"req": "",
+"desc": "→ You gain +2 Willpower.<br>→ You gain +3 AP.<br>→ You gain +5 HP.<br>→ Hex Ward effect increases by +2.",
+"file": "PerksDB.Core.tdb"
+},
+"Morheliss Blessing": {
+"cost": "50",
+"req": "",
+"desc": "→ Dark Affinity increases by +1.<br>→ Light Affinity decreases by 2.",
+"file": "PerksDB.Tales.tdb"
+},
+"Piety": {
+"cost": "50",
+"req": "",
+"desc": "→ Dark Affinity decreases by 1.<br>→ You gain +2 Dark Resistance.",
+"file": "PerksDB.Tales.tdb"
+},
+"Background (Courtesan)": {
+"cost": "0",
+"req": "",
+"desc": "<b>Background</b><br>→ You start the game with the 'Courtesan' Deck.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Background (Witch)": {
+"cost": "0",
+"req": "",
+"desc": "<b>Background</b><br>→ You start the game with the 'Witch' Deck.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Background (Spelldancer)": {
+"cost": "0",
+"req": "",
+"desc": "<b>Background</b><br>→ You start the game with the 'Spelldancer' Deck.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Background (Priestess)": {
+"cost": "0",
+"req": "",
+"desc": "<b>Background</b><br>→ You start the game with the 'Priestess' Deck.",
+"file": "PerksDB.Temptress.tdb"
+},
+"The Rising Phoenix": {
+"cost": "0",
+"req": "",
+"desc": "→ Your Noble house has 'The Rising Phoenix' as Coat of Arms.<br>→ You can have only one 'Coat of Arms'",
+"file": "PerksDB.Temptress.tdb"
+},
+"Headquarters (Bath House)": {
+"cost": "180",
+"req": "Leadership",
+"desc": "→ You gain a copy of 'Bath House' in your Stash. You can have only one 'Headquarters' perk.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Risen from the Grave": {
+"cost": "0",
+"req": "",
+"desc": "→ Agility and Resist Slashing increase by +1.<br>→ You gain 'Hunger' as Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Child of the Night": {
+"cost": "0",
+"req": "Risen from the Grave",
+"desc": "→ Strength increases by +2.<br>→ Concealment effects increase by +5%.<br>→ You gain 'Hide in Shadows', 'Compulsion' and 'Drink Blood' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Nocturnal Hunter": {
+"cost": "0",
+"req": "Child of the Night",
+"desc": "→ You gain +10 HP and AP.<br>→ Willpower and Control 'Elosar' effects increase by +2.<br>→ You gain 'Cattle' and 'Enthralment' as Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Vampire Scion": {
+"cost": "0",
+"req": "Nocturnal Hunter",
+"desc": "→ Slashing and Bludgeoning resistance increase by +2.<br>→ Drain and Bewitch effects increase by +2.<br>→ You gain a 'Vampire Lair' Card and 'Turn to Vampire' as Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Vampire Archon": {
+"cost": "0",
+"req": "Vampire Scion",
+"desc": "→ Strength, Agility and Intellect increase by +2.<br>→ Drain and Control 'Elosar' effects increase by +2.<br>→ You gain 'Awakening' 'Fledgeling Vampire' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Glamorous": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +1 Charisma.<br>→ Whenever you gain Allure you gain +1 more.<br>→ You expend 1 less 'Allure' (down to 0).<br>→ You gain 'Choose Attire' as a Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Fascinating": {
+"cost": "40",
+"req": "Glamorous",
+"desc": "→ You gain +2 Intellect.<br>→ Whenever you gain Mystique you gain +1 more.<br>→ You expend 1 less 'Mystique' (down to 0). You gain 'Poise' as a Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Pleasant Company": {
+"cost": "60",
+"req": "Fascinating",
+"desc": "→ Summon Limit increases by +1 (Max 9).<br>→ Allies gain +4 Lifespan.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Nymphomania": {
+"cost": "100",
+"req": "",
+"desc": "→ Fatigue effect is reduced by 1.<br>→ Teamwork Lust and Teamwork Bewitch gain +1.<br>→ You gain 'A Night to Remember', 'Lustful Thoughts' and 'Promise Pleasure' as Skills",
+"file": "PerksDB.Temptress.tdb"
+},
+"Sexpertise": {
+"cost": "150",
+"req": "Nymphomania",
+"desc": "→ When adjusting Allies Max Health they now gain +1 more.<br>→ Teamwork Enlightenment gains +3.<br>→ You gain 'Come with me' and 'Contentment' as Skills.<br>→ You gain '2x Casual Lover' cards in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Dominatrix": {
+"cost": "150",
+"req": "Nymphomania",
+"desc": "→ When adjusting Allies Max Health they now gain -2 less.<br>→ Bludgeoning Affinity gets +2.<br>→ You gain 'Dominatrix Whip' and 'Take the Lead' as Skills.<br>→ You gain a copy of 'Vanessa' card in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Socialite": {
+"cost": "100",
+"req": "Pleasant Company",
+"desc": "→ Charisma increase by +1.<br>→ Allies gain +4 Health and +2 Lifespan.<br>→ You gain 'Admirer's Gift' as a Skill.<br>→ You gain a copy of 'Delilah' card in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Well-Connected": {
+"cost": "150",
+"req": "Socialite",
+"desc": "→ Summon Limit increase by +1 (Max 9).<br>→ Allies gain +4 Power and +2 Lifespan.<br>→ You gain a copy of 'Hecate's Devotee', 'Temple Guardian' and 'Denna' cards in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Graceful": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +1 Agility and Charisma.<br>→ Each time you gain Grace you gain +1 and Expend 1 (Grace) less.<br>→ You gain 'Readiness' as a Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Dancing": {
+"cost": "40",
+"req": "Graceful",
+"desc": "→ You gain +1 Agility and Resilience.<br>→ Synergy Defend effect gets +1.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Combat Mobility": {
+"cost": "60",
+"req": "Dancing",
+"desc": "→ Agility and Slashing Affinity increase by +1.<br>→ You gain 'Twin-Blade Stance' as Skill",
+"file": "PerksDB.Temptress.tdb"
+},
+"Striptease": {
+"cost": "100",
+"req": "Dancing",
+"desc": "→ You gain +1 Agility.<br>→ Synergy Bewitch and Synergy Multicast effects get +1.<br>→ You gain 'Disrobe' and 'Flirt' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Erotic Dancer I": {
+"cost": "150",
+"req": "Striptease",
+"desc": "→ Contingency Allure effects need one less Allure to trigger.<br>→ Synergy Lust and Synergy Intense effects get +1.<br>→ You gain 'Hypnotic Dance' as Skill.<br>→ You gain a copy of 'Myra' card in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Erotic Dancer II": {
+"cost": "150",
+"req": "Erotic Dancer I",
+"desc": "→ Contingency Mystique effects need one less Mystique to trigger.<br>→ Bewitch and Lust effects get +1.<br>→ You gain 'Sensual Dance' and 'Tantalize' as Skills",
+"file": "PerksDB.Temptress.tdb"
+},
+"Spelldance Secret I": {
+"cost": "150",
+"req": "Erotic Dancer II",
+"desc": "→ Amplify Slashing and Slashing Affinity increase by +1.<br>→ You gain 'Spell Dance' as Skill.<br>→ You gain a copy of 'Blade Dancer' card in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Spelldance Secret II": {
+"cost": "200",
+"req": "Spelldance Secret I",
+"desc": "→ Synergy Damage, Strength and Intellect increase by +1.<br>→ You gain 'Spell Dance II' as Skill and access to the Spelldancer Discipline.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Retainer": {
+"cost": "20",
+"req": "",
+"desc": "→ You gain +1 Willpower and Astral Resistance.<br>→ You gain 'Temple Chores' as Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Initiate": {
+"cost": "40",
+"req": "Hecate's Retainer",
+"desc": "→ You gain +1 Charisma.<br>→ Whenever you gain Mystique you gain +1 more.<br>→ You gain 'Archery Practice', 'Combat Training' and 'Seduction Techniques' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Acolyte": {
+"cost": "60",
+"req": "Hecate's Initiate",
+"desc": "→ Whenever you gain Grace you gain +1 more.<br>→ You expend 1 less 'Mystique' (down to 0).<br>→ You gain 'Prayer to Hecate' and 'Undercover' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Infiltrator": {
+"cost": "60",
+"req": "Hecate's Initiate",
+"desc": "→ Concealment increases by +5%.<br>→ Kill effects increase by +1.<br>→ Conditional Vulnerable effects require 1 less counter to trigger.<br>→ You gain 'Potent Poison' as Skill.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Assassin": {
+"cost": "100",
+"req": "Hecate's Infiltrator",
+"desc": "→ Poison Affinity increases by +2.<br>→ You gain 'Backstab' and 'Nothing to Worry' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Priestess": {
+"cost": "100",
+"req": "Hecate's Acolyte",
+"desc": "→ Healing and Bewitch effects increase by +3 and +1.<br>→ You expend 1 less 'Grace' (down to 0).<br>→ You gain 'Temple Duties' and 'Hecate's Retainer' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Deathspeaker": {
+"cost": "200",
+"req": "Hecate's Assassin",
+"desc": "→ Sneak Attack and Intense effects increase by +1 and +2.<br>→ You gain 'Hairpin Strike' and a copy of 'Denise and Gloria' in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Hecate's Voice": {
+"cost": "200",
+"req": "Hecate's Priestess",
+"desc": "→ Multicast and Synergy Damage effects increase by +1.<br>→ You expend 1 less 'Mystique' (down to 0).<br>→ You gain 'Hecate's Priestess' as Skill. You gain a copy of 'Ronya' card in your Stash.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Dabble in Witchcraft": {
+"cost": "20",
+"req": "",
+"desc": "→ Amplify Astral effects increase by +1.<br>→ You gain access to the 'Unclad' Skill",
+"file": "PerksDB.Temptress.tdb"
+},
+"Witchcraft Practice": {
+"cost": "40",
+"req": "Dabble in Witchcraft",
+"desc": "→ Whenever you gain Grace you gain +1 more.<br>→ You expend 1 less 'Grace' (down to 0).<br>→ You gain 'Ritual' and 'Tarot Deck' as a Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Solitairy Practice": {
+"cost": "60",
+"req": "Witchcraft Practice",
+"desc": "→ You gain +2 Willpower.<br>→ Pride and Synergy Pride effects increase by +2.<br>→ You gain access to the 'Ceremonial Cloak' Skill",
+"file": "PerksDB.Temptress.tdb"
+},
+"Solitairy Witch": {
+"cost": "100",
+"req": "Solitairy Practice",
+"desc": "→ Bewitch effect increase by +1.<br>→ Spells that control 'Elosar' Enemies now affect +2 Power Enemies.<br>→ Conditional Bewitched effects require 1 less counter to trigger.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Green Witch": {
+"cost": "100",
+"req": "Solitairy Witch",
+"desc": "→ Synergy Vulnerable and Synergy Weaken effects increase by +2.<br>→ You gain the 'Herbal Lore', 'Let the Leaves Drop' and 'Frolic' Skills",
+"file": "PerksDB.Temptress.tdb"
+},
+"Traditional Witch": {
+"cost": "120",
+"req": "Witchcraft Practice",
+"desc": "→ You gain +1 Charisma and Intellect.<br>→ You gain access to Skills 'Coven Initiate' and 'Moondance'",
+"file": "PerksDB.Temptress.tdb"
+},
+"Dianic Witch": {
+"cost": "150",
+"req": "Traditional Witch",
+"desc": "→ You gain access to the 'Coven Witch' and 'Five Fold Kiss' Skills.<br>→ Teamwork Damage and Enlightenment increase by +1 and +2.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Eclectic Witch": {
+"cost": "200",
+"req": "Dianic Witch",
+"desc": "→ You gain +2 Intellect.<br>→ Strain effect decreases by 2.<br>→ You gain 'Coven Fury' and 'Yuletide Dance' as Skills.",
+"file": "PerksDB.Temptress.tdb"
+},
+"Well-Prepared": {
+"cost": "40",
+"req": "",
+"desc": "→ Rations increase by +1.<br>→ You can carry +250 Farthings.<br>→ You gain 'Plan B' as a Skill.",
+"file": "PerksDB.Temptress.tdb"
+}
+}
